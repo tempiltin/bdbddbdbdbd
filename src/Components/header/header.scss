@@ -1,0 +1,225 @@
+.header_top {
+    width: 100%;
+    height: auto;
+}
+
+.Navbar_fixed{
+    position: fixed;
+    width: 100%;
+    background: rgba(73, 68, 68, 0.2);
+   backdrop-filter: blur(16px);
+   box-shadow: var(--shadow-1);
+   z-index: 10000;
+
+}
+.StrongName{
+    color: var(--color-lightn);
+}
+.pt_Nav{
+    padding-top: 8%;
+    padding-bottom: 150px;
+}
+.Nav_ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.Nav_ul_li {
+    margin: 10px 14px;
+    transition: 0.3s;
+}
+
+.Nav_ul_li_a {
+    opacity: 0.5;
+    color: var(--color-lightn);
+
+    transition: var(--transition);
+    font-size: 13px;
+    font-weight: var(--s-regular);
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+
+.Nav_ul_li_a:active {
+    color: white;
+}
+
+.active {
+    color: white !important;
+}
+
+.Nav_ul_li_a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.NavButton-icon {
+    z-index: 800;
+    color: var(--color-primary);
+    font-size: 36px;
+    transition: 0.5s;
+
+}
+
+.Navbar_right {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.Navbar_right .Navbar_right_a {
+    color: var(--color-primary);
+    border-radius: 6px;
+    background: #272729;
+    /* background: linear-gradient(145deg, #1e2024, #23272b); */
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+    display: inline-block;
+    padding: 15px 35px;
+    list-style: none;
+    &:hover{
+        box-shadow: none;
+        color: var(--color-lightn);
+        opacity: 0.5;
+    }
+
+}
+.ul_header{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ul_header li{
+    font-size: var(--font-size-b1);
+    line-height: var(--line-height-b1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--color-body);
+}
+.ul_header li a{
+    
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: var(--transition);
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    position: relative;
+    &:hover{
+            box-shadow: none;
+            svg{
+                color: var(--color-primary);
+            }
+    }
+    
+    svg{
+        font-size: 24px;
+        transition: var(--transition);
+        
+    }
+}
+.ul_header li a svg {
+    color: aliceblue;
+}
+.ul_header li{
+    margin-right: 15px;
+}
+.header_h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 22px;
+    font-family: var(--font-secondary);
+    cursor: pointer;
+}
+.header_h1 span{
+    color: #ff014f;;
+}
+.typesss{
+    width: auto;
+    height: 85px;
+    margin-bottom: 3rem;
+}
+.typesss span{
+    font-size: 70px;
+}
+.header_h5{
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    color: var(--color-lightn);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+}
+.header_p{
+    padding-top: 35px;
+    /* padding-bottom: 65px; */
+    width: 70%;
+}
+
+
+
+
+
+
+/* ======= banner ========== */
+
+.thumbnail{
+    position: relative;
+    z-index: 2;
+}
+ .thumbnail::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: calc(100% - 130px);
+    content: "";
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    border-radius: 6px;
+}
+.thumbnail .inner{
+    text-align: center;
+    cursor: pointer;
+}
+.thumbnail .inner img{
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+@media (max-width:1199px) {
+    .typesss {
+         height: 30px;
+        span {
+            font-size: 45px;
+        }
+    }
+    .header_p{
+        width: 100%;
+        text-align: justify;
+    }
+}
