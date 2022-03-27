@@ -17,7 +17,7 @@ function Header() {
           
             <Container className='pt_Nav'>
                 <div className='row'>
-                    <div className='order-md-2 order-2 order-lg-1 col-lg-7 '>
+                    <div className='order-md-2 order-2 order-lg-1 col-lg-7  col-12'>
                         <h5 className='header_h5' data-aos="zoom-out-up">WELCOME TO MY WORLD</h5>
                         <h1 className='header_h1' data-aos="zoom-out-up">Hi, I’m <span>Timur</span></h1>
                         <div className="typesss">
@@ -26,7 +26,7 @@ function Header() {
                         <p className='header_p' data-aos="flip-left">Modern web applications often include three or more levels, and depending on the size of the team the developer is working on, he or she may specialize in one or more of these levels or play a more interdisciplinary role. A web developer is usually classified as a front-end web developer or a back-end web developer.</p>
 
                         <div className='row'>
-                            <div className=" col-lg-12">
+                            <div className=" col-lg-12 ">
                                 <span className='header_find' data-aos="zoom-in">FIND WITH ME</span>
                                 <ul className='ul_header' data-aos="fade-up-right">
                                     <li>
@@ -59,7 +59,7 @@ function Header() {
 
                         </div>
                     </div>
-                    <div   className="order-md-1 order-1 order-lg-2 col-lg-5 ">
+                    <div   className="order-md-1 order-1 order-lg-2 col-lg-5 col-12 ">
                         <div className="thumbnail" data-aos="fade-down-left">
                             <div  className="inner" data-aos="fade-up-left">
                                 <img  src={Bnner} alt="" />

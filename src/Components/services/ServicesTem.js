@@ -1,26 +1,30 @@
 import React from 'react';
-import './services.css';
+import './services.scss';
 import ImgP from '../../assets/images/portfolio/portfolio-01.jpg';
-import { BiLike } from 'react-icons/bi';
+import { BsEyeFill } from 'react-icons/bs';
 import { Link } from "react-router-dom"
 const data = [
     {
         id: 1,
-        see: 249,
+        seen: 249,
         name: 'Click-clone',
         image: ImgP,
-        title: 'tempiltin ',
 
         demo: '/demo-1'
 
     },
     {
         id: 2,
-        see: 249,
+        seen: 249,
         name: 'Web site',
         image: ImgP,
-        title: 'tempiltin ',
-
+        demo: '/demo-1'
+    },
+    {
+        id: 3,
+        seen: 249,
+        name: 'Web site',
+        image: ImgP,
         demo: '/demo-1'
     }
 ]
@@ -38,11 +42,11 @@ function ServicesTem() {
                         </div>
 
                     </div>
-                    <div className="row">
+                    <div className="row justify-content-md-center">
                         {
-                            data.map(({ image, title, name, demo, like, id }) => {
+                            data.map(({ image,  name, demo, seen, id }) => {
                                 return (
-                                    <div  key={id} className="col-lg-6  col-xl-4 col-md-6 col-12">
+                                    <div  key={id} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
                                         <div className="rn-portfolio">
                                             <div className="inner">
                                                 <div className="thumbnail">
@@ -50,16 +54,18 @@ function ServicesTem() {
                                                         <img src={image} alt=""></img>
                                                     </a>
                                                 </div>
+                                                <hr />
                                                 <div className="content">
                                                     <div className="category-info">
                                                         <div className="category-list">
                                                             <a href=" #!">{name}</a>
                                                         </div>
                                                         <div className="meta">
-                                                            <a href=" #!"><BiLike className='Like' /></a> <span> {like}</span>
+                                                            <a href=" #!" className='Seen'><span> {seen}</span> <BsEyeFill className='sdn'  /></a> 
                                                         </div>
                                                     </div>
-                                                    <h4 className="title"><Link to={demo} target="_blank ">{title}</Link></h4>
+                                                    <hr />
+                                                   <Link to={demo} target="_blank " className="button">Live Demo</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,7 +73,13 @@ function ServicesTem() {
                                 )
                             })
                         }
+                     <div className="row justify-content-end">
+                      <hr className='HR'/>
 
+                      <div className="col-auto">
+                      <Link to="/portfolio"  className="button btn_m">Portfolio</Link>
+                      </div>
+                     </div>
                     </div>
 
                 </div>

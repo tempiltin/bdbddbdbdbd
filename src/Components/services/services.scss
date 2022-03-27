@@ -29,7 +29,7 @@
     line-height: 1.2;
     color: var(--color-lightn);
     margin-top: 15px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 .rn-service {
     text-align: left;
@@ -85,7 +85,7 @@
 }
 .rn-portfolio {
     text-align: left;
-    padding: 30px;
+    padding: 15px;
     position: relative;
     border-radius: 20px;
     background: var(--background-color-1);
@@ -148,11 +148,54 @@
     display: block;
 }
 .rn-portfolio .inner .content .category-info .meta span {
+   display: none;
+   transition: 900ms;
     color: var(--color-lightn);
     font-weight: 500;
     font-family: var(--font-primary);
     font-size: 13px;
+    position: absolute;
+    top: 0px;
+    left: -37px;
 }
+.mmb{
+    margin-bottom: 15px;
+}
+.rn-portfolio{
+    
+    .inner{
+        .content{
+            .category-info{
+                .meta{
+                    .Seen{
+                        position: relative;
+
+                        transition: var(--transition);
+                        &:hover{
+                            color: var(--color-primary);
+                           .sdn{
+                               color: var(--color-primary);
+                           }
+                           span{
+                               display: block;
+                           }
+                        }
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
 a {
     color: var(--color-heading);
     text-decoration: none;
@@ -185,3 +228,13 @@ a {
 .Like:hover{
   color: red;
 }
+ .btn_m{
+     margin-top: 20px;
+ }
+ .HR{
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ @media (max-width:1399px) {
+     
+ }

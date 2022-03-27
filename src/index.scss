@@ -141,3 +141,25 @@ p {
   width: 100% !important;
   height: 100vh !important;
 }
+.button{
+  color: var(--color-primary);
+    border-radius: 6px;
+    background: #272729;
+    /* background: linear-gradient(145deg, #1e2024, #23272b); */
+    box-shadow: var(--shadow-1);
+    transition: 500ms;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0 none;
+    display: inline-block;
+    padding: 15px 35px;
+    list-style: none;
+    &:hover{
+      color: var(--color-lightn) ;
+      box-shadow: none;
+      // border: 1px solid var(--color-pinterest);
+      
+    }
+}
