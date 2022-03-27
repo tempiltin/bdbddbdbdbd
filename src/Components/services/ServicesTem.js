@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const data = [
     {
         id: 1,
-        seen: 249,
+        seen: 315,
         name: 'Click-clone',
         image: ImgP,
 
@@ -15,14 +15,14 @@ const data = [
     },
     {
         id: 2,
-        seen: 249,
+        seen: 400,
         name: 'Web site',
         image: ImgP,
         demo: '/demo-1'
     },
     {
         id: 3,
-        seen: 249,
+        seen: 289,
         name: 'Web site',
         image: ImgP,
         demo: '/demo-1'
