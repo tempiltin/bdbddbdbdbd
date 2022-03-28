@@ -95,6 +95,7 @@
     height: 100%;
     transition: 0.5s all ease-in-out;
     display: inline-block;
+   
 }
 .rn-portfolio::before {
     content: '';
@@ -139,7 +140,7 @@
     align-items: center;
 }
 .rn-portfolio .inner .content .category-info .category-list a {
-    color: var(--color-primary);
+    color: var(--color-lightn);
     font-weight: 500;
     font-family: var(--font-primary);
     font-size: 12px;

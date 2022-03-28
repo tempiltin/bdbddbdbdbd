@@ -1,6 +1,8 @@
 import React from 'react';
 import './services.scss';
-import ImgP from '../../assets/images/portfolio/portfolio-01.jpg';
+import IMG1 from '../../assets/images/portfolio/portfolio1.png';
+import IMG2 from '../../assets/images/portfolio/portfolio2.png';
+import IMG3 from '../../assets/images/portfolio/portfolio3.png';
 import { BsEyeFill } from 'react-icons/bs';
 import { Link } from "react-router-dom"
 const data = [
@@ -8,7 +10,7 @@ const data = [
         id: 1,
         seen: 315,
         name: 'Click-clone',
-        image: ImgP,
+        image: IMG1,
 
         demo: '/demo-1'
 
@@ -16,16 +18,16 @@ const data = [
     {
         id: 2,
         seen: 400,
-        name: 'Web site',
-        image: ImgP,
-        demo: '/demo-1'
+        name: 'Trevland',
+        image: IMG2,
+        demo: '/demo-2'
     },
     {
         id: 3,
         seen: 289,
-        name: 'Web site',
-        image: ImgP,
-        demo: '/demo-1'
+        name: 'AUTO-CLUB',
+        image: IMG3,
+        demo: '/demo-3'
     }
 ]
 function ServicesTem() {
@@ -50,7 +52,7 @@ function ServicesTem() {
                                         <div className="rn-portfolio">
                                             <div className="inner">
                                                 <div className="thumbnail">
-                                                    <a href="#!">
+                                                    <a href='#!'>
                                                         <img src={image} alt=""></img>
                                                     </a>
                                                 </div>

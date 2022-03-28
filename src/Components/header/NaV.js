@@ -4,9 +4,16 @@ import LOGO from '../../assets/images/logo/favicon.png'
 import { Container, Navbar, } from 'react-bootstrap'
 import { AiOutlineBars } from 'react-icons/ai';
 import { Link } from "react-router-dom"
+
+
+
+
+
 const NaV = () => {
+  
+   
     return (
-        <div>
+        <>
             <Navbar expand="lg" className='Navbar_fixed'>
                 <div className="MyContainer">
                     <Container fluid className='d-flex align-items-center justify-content-between'>
@@ -28,7 +35,7 @@ const NaV = () => {
                             <li className='Nav_ul_li'><Link to="/contact" className='Nav_ul_li_a'> Contact</Link></li>
                         </ul>
                         <div className="Navbar_right">
-                            <a href="#!" className="Navbar_right_a d-none d-lg-none d-xl-flex"> BUY NOW</a>
+                            <a href="#!" className="Navbar_right_a d-none d-lg-none d-xl-flex"> ABAUT</a>
                         </div>
                         <div className="NavButton d-flex d-xl-none">
                             <AiOutlineBars className='NavButton-icon' />
@@ -36,7 +43,7 @@ const NaV = () => {
                     </Container>
                 </div>
             </Navbar>
-        </div>
+        </>
     )
 }
 
