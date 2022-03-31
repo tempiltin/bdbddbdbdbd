@@ -10,7 +10,7 @@ const MyResum = () => {
         <>
             <section id='MyResum'>
                 <div className="container">
-
+                  
                     <div className="row">
                         <div className="col-12">
                             <div className="sectionTitle text-center">
@@ -34,6 +34,7 @@ const MyResum = () => {
                             </Tabs>
                         </div>
                     </div>
+                    <hr className='Hrm'/>
                 </div>
             </section>
         </>
