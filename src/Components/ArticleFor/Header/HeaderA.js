@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './headerA.scss'
 
 const HeaderA = () => {
@@ -7,7 +8,8 @@ const HeaderA = () => {
       <header className="HeaderArticle">
         <div className="container pt_Nav">
           <div className="row justify-content-around">
-            <div className="col-lg-9 ">
+
+            <div className="col-lg-9 order-2 order-lg-1 ">
               <h2 >Who is a web programmer ?</h2>
               <div className="row">
                 <div className="col-12">
@@ -31,7 +33,7 @@ const HeaderA = () => {
                       </div>
                     </a>  <span> </span> - prepares the client part of the website, ie the part that is visible to users. And again, these would mean that you have to spend for these processes. Everything you see on the site (design, elements, blocks, animations) is done by Front-End programmers. <br />
 
-                  
+
 
 
                     <strong>  2) </strong> <a className='CMS' href="#!"> Back-End programmer
@@ -57,7 +59,7 @@ const HeaderA = () => {
                         must have mastered technologies such as
                       </div>
                     </a> <span> </span> - prepared the server part of the website. It’s a little harder than the Front-End. That is, the programmer forms the basic logic of the site. Program the activities performed on the site (registration, database work, online payments).<br />
-                  
+
                     <strong>  3) </strong> <a className='CMS' href="#!">    Full-Stack programmer
                       <div className='CMSFor'>
                         3) A Full-Stack programmer should be familiar with one or more of the following stacks:
@@ -73,7 +75,7 @@ const HeaderA = () => {
                     </a>
                     - A programmer who has mastered both Front-End and Back-End. That is, he can do everything on his own. Of course, such programmers are in high demand. <br />
 
-                  
+
 
 
 
@@ -82,9 +84,34 @@ const HeaderA = () => {
 
                 </div>
               </div>
-              
+
             </div>
-           
+            <div className="col-lg-3   order-1 order-lg-2">
+              <div className="row justify-content-between">
+                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
+                  <hr />
+                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
+                  <hr />
+                </div>
+                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
+                  <hr />
+                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
+                  <hr />
+                </div>
+                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
+                  <hr />
+                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
+                  <hr />
+                </div>
+                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
+                  <hr />
+                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
+                  <hr />
+                </div>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </header>

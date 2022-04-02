@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 const NaV = () => {
     function Navclick() {
-       
+        
     }
     return (
         <>
