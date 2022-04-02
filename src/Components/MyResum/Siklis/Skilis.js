@@ -12,27 +12,27 @@ const Skilis = () => {
                             <span className="subtitle">Features</span>
                             <h4 className="maintitle">Front end</h4>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">HTML</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={90} />
                                 </div>
                             </div>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">CSS</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={85} />
                                 </div>
                             </div>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">Javascript</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={45} />
                                 </div>
                             </div>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">Jquery</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={75} />
                                 </div>
                             </div>
                         </div>
@@ -44,27 +44,27 @@ const Skilis = () => {
                             <span className="subtitle">Features</span>
                             <h4 className="maintitle">Back end</h4>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">Node.js</div>
                                 <div className="progresst">
                                     <ProgressBar completed={60} />
                                 </div>
                             </div>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">Express.js</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={68} />
                                 </div>
                             </div>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">MongoDB</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={80} />
                                 </div>
                             </div>
                             <div className="progress-charts">
-                                <div className="Lang heading  heading-h6">asd</div>
+                                <div className="Lang heading  heading-h6">React</div>
                                 <div className="progresst">
-                                    <ProgressBar completed={60} />
+                                    <ProgressBar completed={35} />
                                 </div>
                             </div>
                         </div>

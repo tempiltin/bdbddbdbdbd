@@ -3,7 +3,7 @@ import './header.scss';
 
 import { Container, } from 'react-bootstrap';
 import {FiFacebook , FiInstagram , FiLinkedin,FiGithub} from 'react-icons/fi';
-import {RiTelegramLine} from 'react-icons/ri';
+import {HiOutlineMail} from 'react-icons/hi';
 import Typist from 'react-text-typist';
 import Bnner from '../../assets/images/slider/banner-01.png';
 
@@ -30,27 +30,27 @@ function Header() {
                                 <span className='header_find' data-aos="zoom-in">FIND WITH ME</span>
                                 <ul className='ul_header' data-aos="fade-up-right">
                                     <li>
-                                        <a href="#!">
+                                        <a href="https://m.me/TemurbekShukurov0707" target=' _blank'>
                                            <FiFacebook />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#!">
+                                        <a href="https://www.instagram.com/tempiltin99/" target=' _blank'>
                                             <FiInstagram />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#!">
+                                        <a href="https://www.linkedin.com/in/temurbek-shukurov-941b92224/" target=' _blank'>
                                             <FiLinkedin />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#!">
-                                            <RiTelegramLine />
+                                        <a href="mailto:temurbekshukurov0707@gmail.com" target=' _blank'>
+                                            <HiOutlineMail />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#!">
+                                        <a href="https://github.com/webiratium" target=' _blank'>
                                             <FiGithub />
                                         </a>
                                     </li>

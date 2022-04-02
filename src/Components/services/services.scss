@@ -3,6 +3,7 @@
     width: 100%;
     height: auto;
     padding: 100px;
+    
 }
 #services::after {
     position: absolute;
@@ -190,7 +191,23 @@
     }
 }
 
-
+@media (max-width:576px) {
+    .sectionTitle span.subtitle {
+        color: var(--color-subtitle);
+        letter-spacing: 1px;
+        display: block;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .sectionTitle h2.title {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: var(--color-lightn);
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+}
 
 
 

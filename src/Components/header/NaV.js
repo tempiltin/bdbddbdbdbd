@@ -5,13 +5,10 @@ import { Container, Navbar, } from 'react-bootstrap'
 import { AiOutlineBars } from 'react-icons/ai';
 import { Link } from "react-router-dom"
 
-
-
-
-
 const NaV = () => {
-  
-   
+    function Navclick() {
+       
+    }
     return (
         <>
             <Navbar expand="lg" className='Navbar_fixed'>
@@ -38,11 +35,15 @@ const NaV = () => {
                             <a href="#!" className="Navbar_right_a d-none d-lg-none d-xl-flex"> ABAUT</a>
                         </div>
                         <div className="NavButton d-flex d-xl-none">
-                            <AiOutlineBars className='NavButton-icon' />
+                            <AiOutlineBars onClick={Navclick} className='NavButton-icon' />
                         </div>
                     </Container>
                 </div>
             </Navbar>
+            <div className="navbarRight d-flex d-xl-none">
+
+            </div>
+
         </>
     )
 }
