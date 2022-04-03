@@ -19,10 +19,15 @@
     padding: 3px;
     background: #212428 !important;
     box-shadow: inset 8px 8px 16px #00000075, inset -8px -8px 16px #383e4575;
+   
 }
 .progresst > div > div > div{
     height: 10px !important;
     background: linear-gradient(145deg, #f02981 0%, #c81901 100%) !important;
+    span{
+        font-weight: 400 !important;
+        color: var(--color-lightn) !important;
+    }
 }
 .Lang{
     margin-bottom: 15px;

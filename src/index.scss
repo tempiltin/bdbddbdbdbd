@@ -75,6 +75,15 @@
   --h6: 20px;
 }
 
+::-webkit-scrollbar{
+  width: 5px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background: #E60022;
+  border-radius: 20px;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -122,9 +131,7 @@ html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
+
 p {
   font-size: var(--font-size-b2);
   line-height: var(--line-height-b2);
