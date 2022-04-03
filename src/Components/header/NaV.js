@@ -7,7 +7,12 @@ import { Link } from "react-router-dom"
 
 const NaV = () => {
     function Navclick() {
-        
+        let Navright = document.querySelector('.navbarRight')
+        Navright.style.right = 0
+    }
+    function NavButton() {
+        let Navright = document.querySelector('.navbarRight')
+        Navright.style.right = "-100%"
     }
     return (
         <>
@@ -41,7 +46,32 @@ const NaV = () => {
                 </div>
             </Navbar>
             <div className="navbarRight d-flex d-xl-none">
-
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-auto">
+                            <div className="NavButton ">
+                                <AiOutlineBars onClick={NavButton} className='NavButton-icon NavButton-close' />
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                    <div className="row justify-content-around">
+                        <div className="col-11">
+                        <ul className=' Close-ul'>
+                            <li className='Nav_ul_li'><Link to="/" className='button'> Home</Link></li>
+                            <li className='Nav_ul_li'><Link to="/article" className='button'> Article</Link></li>
+                            <li className='Nav_ul_li'><Link to="/abaut" className='button'> About</Link></li>
+                            <li className='Nav_ul_li'><Link to="/features" className='button'> Features</Link></li>
+                            <li className='Nav_ul_li'><Link to="/portfolio" className='button'> Portfolio</Link></li>
+                            <li className='Nav_ul_li'><Link to="/resume" className='button'> Resume</Link></li>
+                            <li className='Nav_ul_li'><Link to="/clients" className='button'> Clients</Link></li>
+                            <li className='Nav_ul_li'><Link to="/pricing" className='button'> Pricing</Link></li>
+                            <li className='Nav_ul_li'><Link to="/blog" className='button'> Blog</Link></li>
+                            <li className='Nav_ul_li'><Link to="/contact" className='button'> Contact</Link></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </>

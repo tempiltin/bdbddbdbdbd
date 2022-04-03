@@ -297,11 +297,32 @@
 .navbarRight{
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%;
     z-index: 99999999;
-    width: 100%;
+    width: 50%;
     height: 100vh;
-    background: rgba(73, 68, 68, 0.2);
-    backdrop-filter: blur(16px);
+    // background: rgba(73, 68, 68, 0.2);
+    background: var(--background-color-2);
+    // backdrop-filter: blur(16px);
     display: none;
+    transition: 600ms;
+}
+.NavButton-close{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.Close-ul{
+    .button{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:576px){
+    .navbarRight{
+        width: 100% !important;
+    }
 }
