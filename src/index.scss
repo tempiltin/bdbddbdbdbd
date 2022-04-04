@@ -76,13 +76,9 @@
 }
 
 ::-webkit-scrollbar{
-  width: 5px;
-  background: transparent;
+  display: none;
 }
-::-webkit-scrollbar-thumb{
-  background: #E60022;
-  border-radius: 20px;
-}
+
 
 html {
   margin: 0;
