@@ -140,39 +140,58 @@ const NaV = () => {
           <div className="row justify-content-around">
             <div className="col-11 scrol-Y">
               <ul className=" Close-ul">
+              <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/" className="button">  {" "} Home   </Link>
+                  <Link to="/" className="button">{" "} Home</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/article" className="button"> {" "} Article </Link>
+                  <Link to="/article" className="button"> {" "}Article </Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/abaut" className="button">{" "}  About </Link>
+                  <Link to="/abaut" className="button">{" "}About</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/features" className="button">  {" "}  Features </Link>
+                  <Link to="/features" className="button">{" "}Features</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/portfolio" className="button">  {" "}  Portfolio </Link>
+                  <Link to="/portfolio" className="button">{" "}Portfolio</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/resume" className="button"> {" "}  Resume</Link>
+                  <Link to="/resume" className="button">{" "}Resume</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/clients" className="button"> {" "} Clients </Link>
+                  <Link to="/clients" className="button">{" "}Clients</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/pricing" className="button"> {" "}  Pricing  </Link>
+                  <Link to="/pricing" className="button">{" "}Pricing</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/blog" className="button"> {" "} Blog </Link>
+                  <Link to="/blog" className="button">{" "}Blog</Link>
                 </li>
+                <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/contact" className="button">  {" "}  Contact </Link>
+                  <Link to="/contact" className="button">{" "}Contact</Link>
                 </li>
+                <hr />
               </ul>
             </div>
           </div>
+          <div className="row justify-content-around">
+           <div className="col-11 ">
+           <div className="footer_">
+           <a class="text-reset fw-bold footer-cp" href="https://timur.vercel.app/">Shukurov Temurbek</a>
+           </div>
+           </div>
+          </div>
+
         </div>
       </div>
     </>

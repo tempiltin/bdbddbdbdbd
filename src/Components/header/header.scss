@@ -286,7 +286,7 @@
   background: var(--background-color-2);
   transition: 600ms;
   border-left: 1px solid #3b4046;
-
+     
 }
 .NavButton-close {
   margin-top: 25px;
@@ -294,17 +294,21 @@
   margin-left: 25px;
 }
 .scrol-Y{
-    height: 90vh;
+    height: 75vh;
     overflow-y: scroll;
+    
+padding-bottom: 29px;
 }
 .Close-ul {
   width: 100%;
- 
-
-  .button {
-    width: 100%;
-    text-align: center;
+  .Nav_ul_li{
+    margin: 20px 10px;
+      .button {
+        width: 100%;
+        text-align: center;
+      }
   }
+
 }
 
 @media (max-width: 576px) {
@@ -324,4 +328,14 @@
   background: var(--background-color-2);
   // backdrop-filter: blur(16px);
   transition: 600ms;
+}
+.footer-cp{
+    text-align: center !important;
+    cursor: pointer;
+}
+.footer_{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
