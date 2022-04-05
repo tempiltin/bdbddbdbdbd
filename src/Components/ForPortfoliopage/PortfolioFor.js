@@ -3,6 +3,9 @@ import '../services/services.scss'
 import IMG1 from '../../assets/images/portfolio/portfolio1.png';
 import IMG2 from '../../assets/images/portfolio/portfolio2.png';
 import IMG3 from '../../assets/images/portfolio/portfolio3.png';
+import IMG4 from '../../assets/images/portfolio/portfolio4.png';
+import IMG5 from '../../assets/images/portfolio/portfolio5.png';
+import IMG6 from '../../assets/images/portfolio/portfolio6.png';
 import { BsEyeFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 const data = [
@@ -28,7 +31,28 @@ const data = [
         name: 'AUTO-CLUB',
         image: IMG3,
         demo: '/demo-3'
-    }
+    },
+    {
+        id: 4,
+        seen: 289,
+        name: 'React js ',
+        image: IMG4,
+        demo: '/demo-4'
+    },
+    {
+        id: 5,
+        seen: 289,
+        name: 'Max Proff ',
+        image: IMG5,
+        demo: '/demo-5'
+    },
+    {
+        id: 6,
+        seen: 289,
+        name: 'Minshop',
+        image: IMG6,
+        demo: '/demo-6'
+    },
 ]
 const PortfolioFor = () => {
     return (

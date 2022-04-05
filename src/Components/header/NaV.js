@@ -26,16 +26,13 @@ const NaV = () => {
     }
   };
 
-  console.log(state);
+
   return (
     <>
       <Navbar expand="lg" className="Navbar_fixed">
 
         <div className="MyContainer">
-          <Container
-            fluid
-            className="d-flex align-items-center justify-content-between"
-          >
+          <Container fluid className="d-flex align-items-center justify-content-between">
             <Navbar.Brand to="/">
               <div className="header_logo" data-aos="fade-up">
                 <img src={LOGO} alt="" />{" "}
