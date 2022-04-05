@@ -6,15 +6,6 @@ import { AiOutlineBars } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const NaV = () => {
-  //   function Navclick() {
-  //     let Navright = document.querySelector(".navbarRight");
-  //     Navright.style.right = 0;
-  //   }
-  //   function NavButton() {
-  //     let Navright = document.querySelector(".navbarRight");
-  //     Navright.style.right = "-100%";
-  //   }
-
   const [state, setState] = useState(false);
 
   const Navclick = (e) => {
@@ -39,6 +30,7 @@ const NaV = () => {
   return (
     <>
       <Navbar expand="lg" className="Navbar_fixed">
+
         <div className="MyContainer">
           <Container
             fluid
