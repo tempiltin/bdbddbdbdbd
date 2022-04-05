@@ -217,3 +217,17 @@ p {
       padding-bottom: 40px;
   }
 }
+.name_bok{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  h2{
+    padding-left: 50px;
+  }
+}
+.Panel-scroll{
+  height: 66.5vh;
+  overflow-y: scroll;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

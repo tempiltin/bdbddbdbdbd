@@ -90,22 +90,7 @@ const HeaderA = () => {
               <div className="row justify-content-between">
                 <div className="col-lg-12 col-md-5 col-sm-5 col-12">
                   <hr />
-                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
-                  <hr />
-                </div>
-                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
-                  <hr />
-                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
-                  <hr />
-                </div>
-                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
-                  <hr />
-                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
-                  <hr />
-                </div>
-                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
-                  <hr />
-                  <Link className='button' to="/Js-about-527eda1a-1f2d-419b-be96-8ceffd72fdd1">JavaScript</Link>
+                  <Link className='button' to="/Js-Eloquen-2c90fd2e-4e9b-4a14-8bd1-b9ecb41eda88">Eloquent JavaScript Book</Link>
                   <hr />
                 </div>
               </div>
