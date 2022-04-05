@@ -15,14 +15,12 @@ import Demo6 from './demo-page/Demo6';
 import Demo7 from './demo-page/Demo7';
 import Demo8 from './demo-page/Demo8';
 import Demo9 from './demo-page/Demo9';
-import Demo10 from './demo-page/Demo9';
+import Demo10 from './demo-page/Demo10';
 
 function App() {
   return (
     <>
       <NaV />
-      
-   
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/article' element={<Article />} />
