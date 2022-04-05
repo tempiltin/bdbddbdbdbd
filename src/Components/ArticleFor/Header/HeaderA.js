@@ -13,10 +13,10 @@ const HeaderA = () => {
               <h2 >Who is a web programmer ?</h2>
               <div className="row">
                 <div className="col-12">
-                  <p className='PTitle'>
-                    Web developer - mainly develops web applications, web sites and web applications running in the browser. Web developers are also divided into 3 types: <br /> <hr />
+                  <article className='PTitle'>
+                    Web developer - mainly develops web applications, web sites and web applications running in the browser. Web developers are also divided into 3 types: <br /> 
                     <strong> 1) </strong><a className='CMS' href="#!">Front-End programmer
-                      <div className='CMSFor'>
+                      <p className='CMSFor'>
                         1) Front-end programmers at least:
 
                         - HTML / CSS / Bootstrap
@@ -30,14 +30,14 @@ const HeaderA = () => {
                         - Photoshop / Sketch / Figma
 
                         must have mastered technologies such as
-                      </div>
+                      </p>
                     </a>  <span> </span> - prepares the client part of the website, ie the part that is visible to users. And again, these would mean that you have to spend for these processes. Everything you see on the site (design, elements, blocks, animations) is done by Front-End programmers. <br />
 
 
 
 
                     <strong>  2) </strong> <a className='CMS' href="#!"> Back-End programmer
-                      <div className='CMSFor'>
+                      <p className='CMSFor'>
                         2) Back-end programmers at least:
 
                         - JavaScript technologies (Node.js / Express.Js)
@@ -57,11 +57,11 @@ const HeaderA = () => {
                         - Version control / Git
 
                         must have mastered technologies such as
-                      </div>
+                      </p>
                     </a> <span> </span> - prepared the server part of the website. It’s a little harder than the Front-End. That is, the programmer forms the basic logic of the site. Program the activities performed on the site (registration, database work, online payments).<br />
 
                     <strong>  3) </strong> <a className='CMS' href="#!">    Full-Stack programmer
-                      <div className='CMSFor'>
+                      <p className='CMSFor'>
                         3) A Full-Stack programmer should be familiar with one or more of the following stacks:
 
                         - MERN stack (MongoDB / Express.js / React.js / Node.js)
@@ -71,7 +71,7 @@ const HeaderA = () => {
                         - Python / Django / Flask
 
                         - Version control / Git
-                      </div>
+                      </p>
                     </a>
                     - A programmer who has mastered both Front-End and Back-End. That is, he can do everything on his own. Of course, such programmers are in high demand. <br />
 
@@ -79,7 +79,7 @@ const HeaderA = () => {
 
 
 
-                  </p>
+                  </article>
 
 
                 </div>

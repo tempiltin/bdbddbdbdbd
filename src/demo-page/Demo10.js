@@ -1,7 +1,7 @@
 import React from 'react'
 import Iframe from 'react-iframe'
-const URI3 = ' https://tempiltin-flexstart.netlify.app/'
-const Demo8 = () => {
+const URI3 = 'https://timur.vercel.app/'
+const Demo10 = () => {
   return (
     <>
     <Iframe  className='Iframe' src={URI3} frameborder="0" />
@@ -9,4 +9,4 @@ const Demo8 = () => {
   )
 }
 
-export default Demo8
+export default Demo10

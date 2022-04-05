@@ -34,7 +34,7 @@ const NaV = () => {
         <div className="MyContainer">
           <Container fluid className="d-flex align-items-center justify-content-between">
             <Navbar.Brand to="/">
-              <div className="header_logo" data-aos="fade-up">
+              <div className="header_logo" >
                 <img src={LOGO} alt="" />{" "}
                 <strong className="StrongName">Tempiltin</strong>
               </div>
@@ -176,7 +176,7 @@ const NaV = () => {
           <div className="row justify-content-around">
            <div className="col-11 ">
            <div className="footer_">
-           <a class="text-reset fw-bold footer-cp" href="https://timur.vercel.app/">Shukurov Temurbek</a>
+           <a className="text-reset fw-bold footer-cp" href="https://timur.vercel.app/">Shukurov Temurbek</a>
            </div>
            </div>
           </div>
