@@ -1,10 +1,7 @@
 import Home from './pages/Home'
 import { Route, Routes } from "react-router-dom"
-
-
 import NaV from './Components/header/NaV';
 import Article from './pages/Article'
-
 import Portfolio from './pages/Portfolio';
 import Demo1 from './demo-page/Demo1';
 import Demo2 from './demo-page/Demo2';
@@ -16,7 +13,6 @@ import Demo7 from './demo-page/Demo7';
 import Demo8 from './demo-page/Demo8';
 import Demo9 from './demo-page/Demo9';
 import Demo10 from './demo-page/Demo10';
-
 function App() {
   return (
     <>
@@ -35,10 +31,8 @@ function App() {
         <Route path='/demo-8' element={<Demo8 />} />
         <Route path='/demo-9' element={<Demo9 />} />
         <Route path='/demo-10' element={<Demo10 />} />
-
       </Routes>
     </>
   );
 }
-
 export default App;

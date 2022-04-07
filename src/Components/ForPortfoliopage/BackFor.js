@@ -8,25 +8,28 @@ const data = [
         id: 1,
         name: 'Chat Cord',
         image: IMG1,
+        aos:'zoom-in-down'
     },
     {
         id: 2,
         name: 'Chat Cord',
         image: IMG2,
+        aos:'zoom-out-up'
     },
     {
         id: 3,
         name: 'BookSto',
         image: IMG3,
+        aos:'zoom-in-down'
     },
 ]
 const BackFor = () => {
   return (
     <>
                  {
-                        data.map(({ image, name, id }) => {
+                        data.map(({ image, name, aos, id }) => {
                             return (
-                                <div key={id} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
+                                <div key={id} data-aos={aos} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
                                     <div className="rn-portfolio">
                                         <div className="inner">
                                             <div className="thumbnail">

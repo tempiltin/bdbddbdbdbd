@@ -114,27 +114,7 @@ const NaV = () => {
                 </li>
                 <hr />
                 <li className="Nav_ul_li">
-                  <Link to="/features" className="button">{" "}Features</Link>
-                </li>
-                <hr />
-                <li className="Nav_ul_li">
                   <Link to="/portfolio" className="button">{" "}Portfolio</Link>
-                </li>
-                <hr />
-                <li className="Nav_ul_li">
-                  <Link to="/resume" className="button">{" "}Resume</Link>
-                </li>
-                <hr />
-                <li className="Nav_ul_li">
-                  <Link to="/clients" className="button">{" "}Clients</Link>
-                </li>
-                <hr />
-                <li className="Nav_ul_li">
-                  <Link to="/pricing" className="button">{" "}Pricing</Link>
-                </li>
-                <hr />
-                <li className="Nav_ul_li">
-                  <Link to="/blog" className="button">{" "}Blog</Link>
                 </li>
                 <hr />
                 <li className="Nav_ul_li">

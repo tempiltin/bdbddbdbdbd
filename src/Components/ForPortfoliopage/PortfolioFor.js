@@ -19,8 +19,8 @@ const data = [
         seen: 315,
         name: 'Click-clone',
         image: IMG1,
-
-        demo: '/demo-1'
+        demo: '/demo-1',
+        aos: 'zoom-in-down'
 
     },
     {
@@ -28,63 +28,73 @@ const data = [
         seen: 400,
         name: 'Trevland',
         image: IMG2,
-        demo: '/demo-2'
+        demo: '/demo-2',
+        aos:'zoom-out-up'
+
     },
     {
         id: 3,
         seen: 289,
         name: 'AUTO-CLUB',
         image: IMG3,
-        demo: '/demo-3'
+        demo: '/demo-3',
+        aos:'zoom-in-left'
     },
     {
         id: 4,
         seen: 289,
         name: 'React js ',
         image: IMG4,
-        demo: '/demo-4'
+        demo: '/demo-4',
+        aos:'zoom-out-right'
     },
     {
         id: 5,
         seen: 289,
         name: 'Max Proff ',
         image: IMG5,
-        demo: '/demo-5'
+        demo: '/demo-5',
+        aos:'zoom-out-left'
     },
     {
         id: 6,
         seen: 289,
         name: 'Minshop',
         image: IMG6,
-        demo: '/demo-6'
+        demo: '/demo-6',
+        aos:'zoom-out-right'
     },
     {
         id: 7,
         seen: 289,
         name: 'X-book',
         image: IMG7,
-        demo: '/demo-7'
+        demo: '/demo-7',
+        aos:'zoom-out-left'
     },
     {
         id: 8,
         seen: 289,
         name: 'Flex-start',
         image: IMG8,
-        demo: '/demo-8'
+        demo: '/demo-8',
+        aos: 'zoom-in-down'
     },
     {
         id: 9,
         seen: 289,
         name: 'Computer and mobile',
         image: IMG9,
-        demo: '/demo-9'
+        demo: '/demo-9',
+        aos:'zoom-out-up'
     },
     {
         id: 10,
         seen: 289,
         name: 'My Website',
         image: IMG10,
-        demo: '/demo-10'
+        demo: '/demo-10',
+        aos: 'zoom-in-down'
     },
 ]
 const PortfolioFor = () => {
@@ -104,9 +114,9 @@ const PortfolioFor = () => {
                 </div>
                 <div className="row justify-content-md-center">
                     {
-                        data.map(({ image, name, demo, seen, id }) => {
+                        data.map(({ image, name, demo,aos, seen, id }) => {
                             return (
-                                <div key={id} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
+                                <div key={id} data-aos={aos} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
                                     <div className="rn-portfolio">
                                         <div className="inner">
                                             <div className="thumbnail">
