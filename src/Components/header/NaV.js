@@ -60,13 +60,6 @@ const NaV = () => {
                   Portfolio
                 </Link>
               </li>
-
-              <li className="Nav_ul_li">
-                <Link to="/blog" className="Nav_ul_li_a">
-                  {" "}
-                  Blog
-                </Link>
-              </li>
               <li className="Nav_ul_li">
                 <Link to="/contact" className="Nav_ul_li_a">
                   {" "}
