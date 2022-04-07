@@ -2,6 +2,7 @@ import React from 'react'
 import IMG1 from '../../assets/images/portfolio/back1.png'
 import IMG2 from '../../assets/images/portfolio/back2.png'
 import IMG3 from '../../assets/images/portfolio/back3.png'
+import IMG4 from '../../assets/images/portfolio/back4.png'
 
 const data = [
     {
@@ -21,6 +22,12 @@ const data = [
         name: 'BookSto',
         image: IMG3,
         aos:'zoom-in-down'
+    },
+    {
+        id: 4,
+        name: 'Proxy Server',
+        image: IMG4,
+        aos:'zoom-out-up'
     },
 ]
 const BackFor = () => {

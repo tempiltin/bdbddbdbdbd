@@ -158,7 +158,6 @@ const PortfolioFor = () => {
                 </div>
                 <div className="row justify-content-md-center">
                <BackFor />
-
                 </div>
 
             </div>
