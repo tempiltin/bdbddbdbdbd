@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import './headerA.scss'
 
 const HeaderA = () => {
@@ -86,16 +86,7 @@ const HeaderA = () => {
               </div>
 
             </div>
-            <div className="col-lg-3   order-1 order-lg-2">
-              <div className="row justify-content-between">
-                <div className="col-lg-12 col-md-5 col-sm-5 col-12">
-                  <hr />
-                  <Link className='button' to="/Js-Eloquen-2c90fd2e-4e9b-4a14-8bd1-b9ecb41eda88">Eloquent JavaScript Book</Link>
-                  <hr />
-                </div>
-              </div>
-
-            </div>
+          
 
           </div>
         </div>

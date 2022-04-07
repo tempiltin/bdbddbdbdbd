@@ -53,36 +53,14 @@ const NaV = () => {
                   Article
                 </Link>
               </li>
-              <li className="Nav_ul_li">
-                <Link to="/features" className="Nav_ul_li_a">
-                  {" "}
-                  Features
-                </Link>
-              </li>
+             
               <li className="Nav_ul_li">
                 <Link to="/portfolio" className="Nav_ul_li_a">
                   {" "}
                   Portfolio
                 </Link>
               </li>
-              <li className="Nav_ul_li">
-                <Link to="/resume" className="Nav_ul_li_a">
-                  {" "}
-                  Resume
-                </Link>
-              </li>
-              <li className="Nav_ul_li">
-                <Link to="/clients" className="Nav_ul_li_a">
-                  {" "}
-                  Clients
-                </Link>
-              </li>
-              <li className="Nav_ul_li">
-                <Link to="/pricing" className="Nav_ul_li_a">
-                  {" "}
-                  Pricing
-                </Link>
-              </li>
+
               <li className="Nav_ul_li">
                 <Link to="/blog" className="Nav_ul_li_a">
                   {" "}

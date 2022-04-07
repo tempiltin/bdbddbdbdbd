@@ -10,12 +10,12 @@ const data = [
         image: IMG1,
     },
     {
-        id: 1,
+        id: 2,
         name: 'Chat Cord',
         image: IMG2,
     },
     {
-        id: 1,
+        id: 3,
         name: 'BookSto',
         image: IMG3,
     },
@@ -24,7 +24,7 @@ const BackFor = () => {
   return (
     <>
                  {
-                        data.map(({ image, name, demo, seen, id }) => {
+                        data.map(({ image, name, id }) => {
                             return (
                                 <div key={id} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
                                     <div className="rn-portfolio">
