@@ -1,0 +1,58 @@
+.contact-about-area {
+  padding: 30px;
+  box-shadow: var(--shadow-1);
+  border-radius: 10px;
+  background-color: #212428;
+  height: 100%;
+  .thumbnail {
+    margin-bottom: 28px;
+    overflow: hidden;
+    border-radius: 10px;
+    img {
+      width: 100%;
+      height: auto;
+      transition: var(--transition);
+      cursor: pointer;
+      transform: scale(1);
+      &:hover{
+          transform: scale(1.2);
+      }
+    }
+  }
+  .title-area {
+    margin-bottom: 15px;
+    h4.title {
+      font-size: 29px;
+      line-height: 44px;
+      color: var(--color-light);
+      margin-bottom: 9px;
+    }
+  }
+  .description {
+    margin-bottom: 39px;
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--color-body);
+        font-family: var(--font-primary);
+        line-height: 30px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    span {
+        display: block;
+        a {
+            transition: var(--transition);
+            position: relative;
+            color: var(--color-lightn);
+            font-weight: 400;
+            &:hover {
+                color: var(--color-primary);
+            }
+
+        }
+    }
+
+  }
+
+}
