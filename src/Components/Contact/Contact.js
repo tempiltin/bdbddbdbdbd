@@ -21,7 +21,7 @@ const Contact = () => {
                                 <img src={CLIENT} alt="" />
                             </div>
                             <div className="title-area">
-                                <h4 className="title">Nevine Acotanza</h4>
+                                <h4 className="title">Shukurov Temurbek</h4>
                                 <span>Chief Operating Officer</span>
                             </div>
                             <div className="description">
@@ -59,6 +59,50 @@ const Contact = () => {
                                         </a>
                                     </li>
                                 </ul>
+                        </div>
+                    </div>
+                    <div className="col-lg-7">
+                        <div className="contact-form-wrapper">
+                            <div className="introduce">
+                                <form className='row '>
+                                  <div className="col-lg-6">
+                                      <div className="form-group">
+                                          <label htmlFor="contact-name" className="contact-name">Your Name</label>
+                                          <input type="text" id='contact-name' name='contact-name'/>
+                                      </div>
+                                  </div>
+                                  <div className="col-lg-6">
+                                        <div className="form-group">
+                                            <label htmlFor="contact-phone">Phone Number</label>
+                                            <input  name="contact-phone" id="contact-phone" type="text" />
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label htmlFor="contact-email">Email</label>
+                                            <input className="form-control form-control-sm" id="contact-email" name="contact-email" type="email" />
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label htmlFor="subject">SUBJECT</label>
+                                            <input className="form-control form-control-sm" id="subject" name="subject" type="text" />
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label htmlFor="contact-message">Your Message</label>
+                                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-12">
+                                        <button  name="submit" type="submit" id="submit" className="btn button">
+                                          SEND MESSAGE
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
