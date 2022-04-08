@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import IMG1 from '../../assets/images/portfolio/back1.png'
 import IMG2 from '../../assets/images/portfolio/back2.png'
 import IMG3 from '../../assets/images/portfolio/back3.png'
 import IMG4 from '../../assets/images/portfolio/back4.png'
+import Dev from './dev'
 
 const data = [
     {
@@ -29,12 +31,14 @@ const data = [
         image: IMG4,
         aos:'zoom-out-up'
     },
+    
 ]
+
 const BackFor = () => {
   return (
     <>
                  {
-                        data.map(({ image, name, aos, id }) => {
+                        data.map(({ image, name, aos, id,demo }) => {
                             return (
                                 <div key={id} data-aos={aos} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
                                     <div className="rn-portfolio">
@@ -50,7 +54,8 @@ const BackFor = () => {
                                                     <div className="category-list">
                                                         <a href=" #!">{name}</a>
                                                     </div>
-                                                  
+                                                 
+                                                   
                                                 </div>
                                                 <hr />
                                                
@@ -61,6 +66,8 @@ const BackFor = () => {
                             )
                         })
                     }
+                <Dev />
+               
     
     </>
   )
