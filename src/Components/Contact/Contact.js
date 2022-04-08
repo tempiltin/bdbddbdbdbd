@@ -4,7 +4,20 @@ import '../header/header.scss'
 import {FiFacebook , FiInstagram , FiLinkedin,FiGithub} from 'react-icons/fi';
 import {HiOutlineMail} from 'react-icons/hi';
 import CLIENT from '../../assets/images/client/client.jpg'
+
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_b7bm8zb', 'template_329l5lj', form.current, 'cXXCdmgCA4k5Gj-6Q')
+    e.target.reset()
+  };
+
+
+
     return (
         <main>
             <div className='pt_Nav container'>
@@ -64,7 +77,7 @@ const Contact = () => {
                     <div className="col-lg-7">
                         <div className="contact-form-wrapper">
                             <div className="introduce">
-                                <form className='row '>
+                                <form ref={form} onSubmit={sendEmail} className='row '>
                                   <div className="col-lg-6">
                                       <div className="form-group">
                                           <label htmlFor="contact-name" className="contact-name">Your Name</label>
