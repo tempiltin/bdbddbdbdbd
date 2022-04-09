@@ -104,8 +104,8 @@ const PortfolioFor = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="sectionTitle text-center">
-                            <span className="subtitle">Visit my portfolio and keep your feedback</span>
-                            <h2 className="title">My Portfolio</h2>
+                            <span className="subtitle">Portfelimga tashrif buyuring va fikr-mulohazalaringizni saqlang</span>
+                            <h2 className="title">Mening portfelim</h2>
                             <hr />
                             <span className="subtitle">Front end</span>
                             <hr className='mb-5'/>
@@ -135,7 +135,7 @@ const PortfolioFor = () => {
                                                     </div>
                                                 </div>
                                                 <hr />
-                                                <Link to={demo} target="_blank " className="button">Live Demo</Link>
+                                                <Link to={demo} target="_blank " className="button">Jonli Ko'rish</Link>
                                             </div>
                                         </div>
                                     </div>

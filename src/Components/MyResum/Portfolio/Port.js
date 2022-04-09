@@ -7,13 +7,13 @@ const Port = () => {
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="content">
                         <span className="subtitle">2020 - 2022</span>
-                        <h4 className="maintitle">Experience</h4>
+                        <h4 className="maintitle">Tajriba</h4>
                         <div className="experience-list">
                             <div className="resume-single-list">
                                 <div className="inner">
                                     <div className="heading">
                                         <div className="title">
-                                            <h4>What content can I create ?</h4>
+                                            <h4>Qanday tarkibni yaratishim mumkin?</h4>
                                             <span>-------------</span>
                                         </div>
                                         <div className="date-of-time">
@@ -21,15 +21,15 @@ const Port = () => {
                                         </div>
                                     </div>
                                     <p className="description">
-                                        Modern like React.js, Node.js
-                                        Great web projects with technology!
-                                        Clarity and customer satisfaction.
-                                        Good experience in website and web application development
-                                        I develop web applications for small and medium businesses,
-                                        Creating CRM applications, developing small and medium platforms,
-                                        development of online stores and businesses and individuals
-                                        I have good experience in creating landing pages for me.
-                                        I am good at front-end and back-end technologies:
+                                    React.js, Node.js kabi zamonaviy
+                                         Texnologiya bilan ajoyib veb-loyihalar!
+                                         Aniqlik va mijozlar ehtiyojini qondirish.
+                                         Veb-sayt va veb-ilovalarni ishlab chiqishda yaxshi tajriba
+                                         Men kichik va o'rta biznes uchun veb-ilovalarni ishlab chiqaman,
+                                         CRM ilovalarini yaratish, kichik va o'rta platformalarni ishlab chiqish,
+                                         onlayn-do'konlar va korxonalar va jismoniy shaxslarni rivojlantirish
+                                         Men uchun ochilish sahifalarini yaratishda yaxshi tajribam bor.
+                                         Men front-end va back-end texnologiyalarida yaxshiman:
                                     </p>
                                 </div>
                             </div>

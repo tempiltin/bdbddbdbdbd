@@ -14,20 +14,19 @@ const MyResum = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="sectionTitle text-center">
-                                <span className="subtitle">1+ YEARS OF EXPERIENCE</span>
-                                <h2 className="title">My Resume</h2>
+                                <span className="subtitle">1+ YIL TAJRIBA</span>
+                                <h2 className="title">Rezyume</h2>
                             </div>
                         </div>
                         <div className="col-12">
                             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="myres mb-3" >
-                                <Tab eventKey="home" title="education" >
+                                <Tab eventKey="home" title="Ta'lim" >
                                     <Education />
                                 </Tab>
-                                <Tab eventKey="professional" title="My
-                                    Skills">
+                                <Tab eventKey="professional" title="Texnologiyalar">
                                   <Skilis />
                                 </Tab>
-                                <Tab eventKey="experience" title="experience" >
+                                <Tab eventKey="experience" title="Tajriba" >
                                     <Port />
                                 </Tab>
 

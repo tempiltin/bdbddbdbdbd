@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import IMG1 from '../../assets/images/portfolio/back1.png'
 import IMG2 from '../../assets/images/portfolio/back2.png'
 import IMG3 from '../../assets/images/portfolio/back3.png'

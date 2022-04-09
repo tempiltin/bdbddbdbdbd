@@ -18,16 +18,18 @@ function Header() {
             <Container className='pt_Nav'>
                 <div className='row'>
                     <div className='order-md-2 order-2 order-lg-1 col-lg-7  col-12'>
-                        <h5 className='header_h5' data-aos="zoom-out-up">WELCOME TO MY WORLD</h5>
-                        <h1 className='header_h1' data-aos="zoom-out-up">Hi, I’m <span>Timur</span></h1>
+                        <h5 className='header_h5' data-aos="zoom-out-up">OLAMIMGA XUSH KELIBSIZ</h5>
+                        <h1 className='header_h1' data-aos="zoom-out-up">Salom, Men <span>Temur</span></h1>
                         <div className="typesss">
                         <Typist sentences={['Web Developer', 'Front-end Developer', 'Back-end Developer']} className="transition" loop={false} />
                         </div>
-                        <p className='header_p' data-aos="flip-left">Modern web applications often include three or more levels, and depending on the size of the team the developer is working on, he or she may specialize in one or more of these levels or play a more interdisciplinary role. A web developer is usually classified as a front-end web developer or a back-end web developer.</p>
+                        <p className='header_p' data-aos="flip-left">
+                        Zamonaviy veb-ilovalar ko'pincha uch yoki undan ortiq darajalarni o'z ichiga oladi va ishlab chiquvchi ishlayotgan jamoaning hajmiga qarab, u ushbu darajalarning bir yoki bir nechtasiga ixtisoslashishi yoki ko'proq fanlararo rol o'ynashi mumkin. Veb-ishlab chiquvchi odatda front-end veb-ishlab chiquvchisi yoki back-end veb-ishlab chiquvchisi sifatida tasniflanadi.
+                        </p>
 
                         <div className='row'>
                             <div className=" col-lg-12 ">
-                                <span className='header_find' data-aos="zoom-in">FIND WITH ME</span>
+                                <span className='header_find' data-aos="zoom-in">MENI TOPISHINGIZ MUMKIN</span>
                                 <ul className='ul_header' data-aos="fade-up-right">
                                     <li>
                                         <a href="https://m.me/TemurbekShukurov0707" target=' _blank'>

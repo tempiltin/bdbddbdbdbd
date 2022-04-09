@@ -44,20 +44,20 @@ const NaV = () => {
               <li className="Nav_ul_li">
                 <Link to="/" className="Nav_ul_li_a">
                   {" "}
-                  Home
+                  Bosh sahifa
                 </Link>
               </li>
               <li className="Nav_ul_li">
                 <Link to="/article" className="Nav_ul_li_a">
                   {" "}
-                  Article
+                  Maqola
                 </Link>
               </li>
              
               <li className="Nav_ul_li">
                 <Link to="/portfolio" className="Nav_ul_li_a">
                   {" "}
-                  Portfolio
+                  Portfel
                 </Link>
               </li>
               <li className="Nav_ul_li">
@@ -73,7 +73,7 @@ const NaV = () => {
                 className="Navbar_right_a d-none d-lg-none d-xl-flex"
               >
                 {" "}
-                ABAUT
+                Haqida
               </a>
             </div>
             <div className="NavButton d-flex d-xl-none">

@@ -30,7 +30,7 @@ const dev = () => {
                                         <div className="category-list">
                                             <a href=" #!">{name}</a>
                                         </div>
-                                        <Link to={demo} target="_blank " className="button">Live Demo</Link>
+                                        <Link to={demo} target="_blank " className="button">Jonli Ko'rish</Link>
                                        
                                     </div>
                                     <hr />

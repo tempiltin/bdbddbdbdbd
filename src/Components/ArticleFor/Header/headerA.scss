@@ -7,9 +7,10 @@
     cursor: pointer;
   }
   .PTitle {
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
     position: relative;
+    line-height: 25px;
 
     .CMS {
       position: relative;
@@ -22,8 +23,9 @@
         }
       }
       .CMSFor {
+        font-size: 14px;
         position: absolute;
-        top: 164%;
+        top: 0;
         left: 100%;
         width: 300px;
         text-align: left;
@@ -31,12 +33,15 @@
         border-radius: 20px;
         background: var(--background-color-1);
         box-shadow: var(--shadow-1);
-        z-index: 100;
+        z-index: 1000;
         transition: 0.5s all ease-in-out;
         transform: scale(0);
       }
     }
   }
+}
+.ComputerING{
+  margin-top: 30px;
 }
 @media (max-width: 576px) {
   .HeaderArticle {
@@ -48,9 +53,10 @@
       cursor: pointer;
     }
     .PTitle {
-      font-size: 14px;
+      font-size: 18px;
       text-align: justify;
       position: relative;
+      
 
       .CMS {
         position: relative;
