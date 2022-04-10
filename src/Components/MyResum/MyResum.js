@@ -23,7 +23,7 @@ const MyResum = () => {
                                 <Tab eventKey="home" title="Ta'lim" >
                                     <Education />
                                 </Tab>
-                                <Tab eventKey="professional" title="Texnologiyalar">
+                                <Tab eventKey="professional" title="Texn/lar ">
                                   <Skilis />
                                 </Tab>
                                 <Tab eventKey="experience" title="Tajriba" >
