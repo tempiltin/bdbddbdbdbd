@@ -65,7 +65,7 @@ form{
     box-shadow: var(--shadow-1);
     padding: 30px;
     border-radius: 10px;
-    margin-left: 20px;
+   
     height: 100%;
 
     .introduce {
@@ -110,4 +110,27 @@ form{
     box-shadow: var(--inner-shadow);
     letter-spacing: 1px;
     resize: none;
+}
+@media (max-width:991px) {
+  .contarea{
+    margin-bottom: 25px;
+  }
+  
+}
+@media (max-width:576px) {
+  .contact-form-wrapper {
+    width: 100%;
+    box-shadow: var(--shadow-1);
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+.contact-about-area {
+  padding: 10px;
+  box-shadow: var(--shadow-1);
+  border-radius: 10px;
+  background-color: #212428;
+  height: 100%;
+}
+  
 }

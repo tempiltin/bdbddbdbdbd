@@ -28,7 +28,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 contarea">
                         <div className="contact-about-area">
                             <div className="thumbnail">
                                 <img src={CLIENT} alt="" />
