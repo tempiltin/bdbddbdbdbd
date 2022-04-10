@@ -287,6 +287,18 @@
   background: var(--background-color-2);
   transition: 600ms;
   border-left: 1px solid #3b4046;
+  
+  .opasty-width{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #00000026;
+    z-index: 99999998;
+    top: 0;
+    left: -50%;
+    transition: 500ms;
+
+  }
      
 }
 .NavButton-close {
@@ -315,6 +327,9 @@ padding-bottom: 29px;
 @media (max-width: 576px) {
   .navbarRight {
     width: 100% !important;
+  }
+   .opasty-width{
+display: none;
   }
 }
 

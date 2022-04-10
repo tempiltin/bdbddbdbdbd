@@ -99,7 +99,9 @@ body {
   color: var(--color-body);
   font-weight: var(--p-regular);
 }
-
+.NavButton-icon , .brand-img{
+  cursor: pointer;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
     overflow: hidden;
@@ -197,6 +199,12 @@ p {
   padding-top: 8%;
   padding-bottom: 150px;
 }
+@media (max-width:1199px) {
+  .medianame{
+    margin-top: 3%;
+  }
+  
+}
 @media (max-width:991px) {
   .pt_Nav {
       padding-top: 13%;
@@ -216,6 +224,10 @@ p {
       padding-top: 28%;
       padding-bottom: 40px;
   }
+  .medianame{
+    margin-top: 3%;
+  }
+  
 }
 .name_bok{
   width: 100%;
@@ -233,4 +245,7 @@ p {
 }
 .weter{
   padding-top: 4.5%;
+}
+.web-name{
+  cursor: pointer;
 }

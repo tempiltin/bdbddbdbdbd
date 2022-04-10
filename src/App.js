@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom"
 import NaV from './Components/header/NaV';
 import Article from './pages/Article'
 import Portfolio from './pages/Portfolio';
+import SaytAdd from './pages/SaytAdd';
 import Contact from './Components/Contact/Contact';
 import Demo1 from './demo-page/Demo1';
 import Demo2 from './demo-page/Demo2';
@@ -23,6 +24,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/article' element={<Article />} />
         <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/sayt-yaratish-77fb9e2c-3f7f-4660-945c-08793e82e3a6' element={<SaytAdd />} />
+
+        
         <Route path='/contact' element={<Contact />} />
         <Route path='/demo-1' element={<Demo1 />} />
         <Route path='/demo-2' element={<Demo2 />} />
