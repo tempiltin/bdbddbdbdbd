@@ -37,7 +37,7 @@ function generateString(length) {
     return result;
 }
 const uid = generateString(99)
-console.log(generateString(99));
+// console.log(generateString(99));
 
 const data = [
     {
@@ -98,6 +98,17 @@ const Carusel = () => {
     return (
         <>
             <div className="container">
+            <div className="row">
+                    <div className="col-lg-12">
+                        <div className="sectionTitle text-center">
+                            <span className="subtitle">Texnologiya</span>
+                            <h2 className="title"> Texnologiya</h2>
+                            <hr />
+                            
+                            <hr className='mb-5'/>
+                        </div>
+                    </div>
+                </div>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
