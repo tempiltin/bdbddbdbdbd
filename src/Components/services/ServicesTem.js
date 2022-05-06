@@ -1,8 +1,8 @@
 import React from 'react';
 import './services.scss';
-import IMG1 from '../../assets/images/portfolio/portfolio1.png';
-import IMG2 from '../../assets/images/portfolio/portfolio2.png';
-import IMG3 from '../../assets/images/portfolio/portfolio3.png';
+import IMG1 from '../../assets/images/portfolio/portfolio1.jpg';
+import IMG2 from '../../assets/images/portfolio/portfolio2.jpg';
+import IMG3 from '../../assets/images/portfolio/portfolio3.jpg';
 import { BsEyeFill } from 'react-icons/bs';
 import { Link } from "react-router-dom"
 const data = [

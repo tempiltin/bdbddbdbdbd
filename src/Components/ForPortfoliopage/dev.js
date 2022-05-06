@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import IMG5 from '../../assets/images/portfolio/back5.png'
+import IMG5 from '../../assets/images/portfolio/back5.jpg'
 const dev = () => {
     const date1 = [
         {

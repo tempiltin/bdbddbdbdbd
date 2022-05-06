@@ -1,8 +1,8 @@
 import React from 'react'
-import IMG1 from '../../assets/images/portfolio/back1.png'
-import IMG2 from '../../assets/images/portfolio/back2.png'
-import IMG3 from '../../assets/images/portfolio/back3.png'
-import IMG4 from '../../assets/images/portfolio/back4.png'
+import IMG1 from '../../assets/images/portfolio/asd.jfif'
+import IMG2 from '../../assets/images/portfolio/back2.jpg'
+import IMG3 from '../../assets/images/portfolio/back3.jpg'
+import IMG4 from '../../assets/images/portfolio/back4.jpg'
 import Dev from './dev'
 
 const data = [

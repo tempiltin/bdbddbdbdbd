@@ -1,15 +1,15 @@
 import React from 'react'
 import '../services/services.scss'
-import IMG1 from '../../assets/images/portfolio/portfolio1.png';
-import IMG2 from '../../assets/images/portfolio/portfolio2.png';
-import IMG3 from '../../assets/images/portfolio/portfolio3.png';
-import IMG4 from '../../assets/images/portfolio/portfolio4.png';
-import IMG5 from '../../assets/images/portfolio/portfolio5.png';
-import IMG6 from '../../assets/images/portfolio/portfolio6.png';
-import IMG7 from '../../assets/images/portfolio/portfolio7.png';
-import IMG8 from '../../assets/images/portfolio/portfolio8.png';
-import IMG9 from '../../assets/images/portfolio/portfolio9.png';
-import IMG10 from '../../assets/images/portfolio/portfolio10.png';
+import IMG1 from '../../assets/images/portfolio/portfolio1.jpg';
+import IMG2 from '../../assets/images/portfolio/portfolio2.jpg';
+import IMG3 from '../../assets/images/portfolio/portfolio3.jpg';
+import IMG4 from '../../assets/images/portfolio/portfolio4.jpg';
+import IMG5 from '../../assets/images/portfolio/portfolio5.jpg';
+import IMG6 from '../../assets/images/portfolio/portfolio6.jpg';
+import IMG7 from '../../assets/images/portfolio/portfolio7.jpg';
+import IMG8 from '../../assets/images/portfolio/portfolio8.jpg';
+import IMG9 from '../../assets/images/portfolio/portfolio9.jpg';
+import IMG10 from '../../assets/images/portfolio/portfolio10.jpg';
 import { BsEyeFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import BackFor from './BackFor';
