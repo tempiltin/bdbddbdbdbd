@@ -36,6 +36,7 @@ const MyResum = () => {
                     <hr className='Hrm'/>
                 </div>
             </section>
+            
         </>
     )
 }

@@ -34,7 +34,7 @@ const data = [
     },
     {
         id: 3,
-        seen: 289,
+        seen: 280,
         name: 'AUTO-CLUB',
         image: IMG3,
         demo: '/demo-3',
@@ -42,7 +42,7 @@ const data = [
     },
     {
         id: 4,
-        seen: 289,
+        seen: 304,
         name: 'React js ',
         image: IMG4,
         demo: '/demo-4',
@@ -50,7 +50,7 @@ const data = [
     },
     {
         id: 5,
-        seen: 289,
+        seen: 101,
         name: 'Max Proff ',
         image: IMG5,
         demo: '/demo-5',
@@ -58,7 +58,7 @@ const data = [
     },
     {
         id: 6,
-        seen: 289,
+        seen: 243,
         name: 'Minshop',
         image: IMG6,
         demo: '/demo-6',
@@ -66,7 +66,7 @@ const data = [
     },
     {
         id: 7,
-        seen: 289,
+        seen: 111,
         name: 'X-book',
         image: IMG7,
         demo: '/demo-7',
@@ -74,7 +74,7 @@ const data = [
     },
     {
         id: 8,
-        seen: 289,
+        seen: 307,
         name: 'Flex-start',
         image: IMG8,
         demo: '/demo-8',
@@ -82,7 +82,7 @@ const data = [
     },
     {
         id: 9,
-        seen: 289,
+        seen: 200,
         name: 'Computer and mobile',
         image: IMG9,
         demo: '/demo-9',
@@ -90,7 +90,7 @@ const data = [
     },
     {
         id: 10,
-        seen: 289,
+        seen: 269,
         name: 'My Website',
         image: IMG10,
         demo: '/demo-10',

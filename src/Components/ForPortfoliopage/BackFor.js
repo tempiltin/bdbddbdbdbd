@@ -14,7 +14,7 @@ const data = [
     },
     {
         id: 2,
-        name: 'Chat Cord',
+        name: 'Node js ',
         image: IMG2,
         aos:'zoom-out-up'
     },

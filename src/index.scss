@@ -62,7 +62,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Montserrat', sans-serif;
   --font-size-b1: 18px;
-  --font-size-b2: 22px;
+  --font-size-b2: 16px;
   --font-size-b3: 14px;
   --line-height-b1: 1.50;
   --line-height-b2: 1.6;
@@ -131,7 +131,7 @@ html {
 
 
 p {
-  font-size: var(--font-size-b2);
+  font-size: var(--font-size-b1);
   line-height: var(--line-height-b2);
   font-weight: var(--p-regular);
   color: var(--color-body);
