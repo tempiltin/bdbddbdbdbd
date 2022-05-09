@@ -11,9 +11,7 @@ const data = [
         seen: 315,
         name: 'Click-clone',
         image: IMG1,
-
         demo: '/demo-1'
-
     },
     {
         id: 2,
@@ -42,12 +40,9 @@ function ServicesTem() {
                                 <h2  className="title">Mening portfelim</h2>
                             </div>
                         </div>
-
                     </div>
                     <div className="row justify-content-md-center">
-                        {
-                            data.map(({ image,  name, demo, seen, id }) => {
-                                return (
+                        {data.map(({ image,  name, demo, seen, id }) => {return (
                                     <div  key={id} className="col-lg-4  col-xl-4 col-md-6 col-12 mmb">
                                         <div className="rn-portfolio">
                                             <div className="inner">
@@ -72,23 +67,16 @@ function ServicesTem() {
                                             </div>
                                         </div>
                                     </div>
-                                )
-                            })
-                        }
+                                )})}
                      <div className="row justify-content-end">
                       <hr className='HR'/>
-
                       <div className="col-auto">
                       <Link to="/portfolio"  className="button btn_m">Portfolio</Link>
                       </div>
                      </div>
                     </div>
-
                 </div>
             </section>
-            
         </>
-    )
-}
-
+    )}
 export default ServicesTem;

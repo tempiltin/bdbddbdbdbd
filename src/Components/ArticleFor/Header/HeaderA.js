@@ -1,14 +1,11 @@
-import React from 'react'
-
-import './headerA.scss'
-
+import React from 'react';
+import './headerA.scss';
 const HeaderA = () => {
   return (
     <>
       <header className="HeaderArticle">
         <div className="container pt_Nav">
           <div className="row justify-content-around">
-
             <div className="col-lg-8 order-2 order-lg-1 ">
               <h2 >Veb dasturchi kim?</h2>
               <div className="row">
@@ -19,68 +16,38 @@ const HeaderA = () => {
                     <strong> 1) </strong><a className='CMS' href="#!">Front-End dasturchi
                       <p className='CMSFor'>
                         1)Front-end dasturchilar kamida:
-
                         - HTML / CSS / Bootstrap
-
                         - JavaScript / jQuery
-
                         - Sass / LESS
-
                         - Version control / GIT
-
                         - Photoshop / Sketch / Figma
-
                         kabi texnologiyalarni o‘zlashtirgan bo‘lishi kerak
                       </p>
                     </a>  <span> </span> -veb-saytning mijoz qismini, ya'ni foydalanuvchilarga ko'rinadigan qismini tayyorlaydi. Va yana, bu jarayonlar uchun pul sarflashingiz kerakligini anglatadi. Saytda ko'rgan hamma narsa (dizayn, elementlar, bloklar, animatsiyalar) Front-End dasturchilari tomonidan amalga oshiriladi. <br />
-
-
-
-
                     <strong>  2) </strong> <a className='CMS' href="#!"> Back-End dasturchi
                       <p className='CMSFor'>
                         2) Back-end dasturchilar kamida:
-
                         - JavaScript technologies (Node.js / Express.Js)
-
                         Or
-
                         - PHP / Yii / Laravel
-
                         Or
-
                         - Python / Django
-
                         - OOP (Object Oriented Programming)
-
                         - MySql / MongoDB / PostgreSQL
-
                         - Version control / Git
-
                         kabi texnologiyalarni o‘zlashtirgan bo‘lishi kerak
                       </p>
                     </a> <span> </span> - veb-saytning server qismini tayyorladi. Bu Front-End-dan biroz qiyinroq. Ya'ni, dasturchi saytning asosiy mantiqini shakllantiradi. Saytda amalga oshiriladigan tadbirlarni dasturlash (ro'yxatdan o'tish, ma'lumotlar bazasida ishlash, onlayn to'lovlar).<br />
-
                     <strong>  3) </strong> <a className='CMS' href="#!">    Full-Stack dasturchi
                       <p className='CMSFor'>
                         3) Full-Stack dasturchi quyidagi steklardan biri yoki bir nechtasi bilan tanish bo'lishi kerak:
-
                         - MERN stack (MongoDB / Express.js / React.js / Node.js)
-
                         - MEVN stack (MongoDB / Express.js / Vue.js / Node.js)
-
                         - Python / Django / Flask
-
                         - Version control / Git
                       </p>
                     </a>
                     - Front-End va Back-End-ni ham o'zlashtirgan dasturchi. Ya'ni, u o'zi hamma narsani qila oladi. Albatta, bunday dasturchilarga talab katta.<br />
-
-
-
-
-                   
-
                    <div className="row">
                      <h2 className='ComputerING'>Computer Engineering</h2>
                      <hr />
@@ -95,7 +62,6 @@ const HeaderA = () => {
                    </div>
                   </article>
                   <article>
-
                     <h2 className='ComputerING'>Kompyuter muhandislari tarixi</h2>
                     <hr />
                     <p>Kompyuter injiniringi yangi fanga aylanmasdan oldin elektrotexnika ixtisosligi sifatida boshlangan. Dastlab aniqlanganidek, kompyuter muhandisligi raqamli mantiqiy dizaynning informatikadan mikroprotsessorlar va texnologik tizimlarni loyihalashgacha bo'lgan jihatlarini qo'llaydi.</p>
@@ -105,20 +71,13 @@ const HeaderA = () => {
                     <p>Case Western Reserve universiteti 1971 yilda AQShda birinchi akkreditatsiyadan o'tgan kompyuter injiniring dasturini taklif qilgan.
                        2015 yil holatiga ko'ra, mamlakatdagi 279 dan ortiq kompyuter injiniring dasturlari Muhandislik va Texnologiyalar bo'yicha akkreditatsiya kengashidan akkreditatsiyadan o'tgan.</p>
                   </article>
-
-
                 </div>
               </div>
-
             </div>
-          
-
           </div>
         </div>
       </header>
-
     </>
   )
 }
-
 export default HeaderA

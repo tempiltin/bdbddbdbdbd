@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Foter = () => {
   return (
     <footer>
@@ -14,5 +13,4 @@ const Foter = () => {
     </footer>
   )
 }
-
 export default Foter

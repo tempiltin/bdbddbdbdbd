@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { Tabs, Tab } from 'react-bootstrap'
 import Education from './Education/Education'
@@ -10,7 +9,6 @@ const MyResum = () => {
         <>
             <section id='MyResum'>
                 <div className="container">
-                  
                     <div className="row">
                         <div className="col-12">
                             <div className="sectionTitle text-center">
@@ -29,16 +27,13 @@ const MyResum = () => {
                                 <Tab eventKey="experience" title="Tajriba" >
                                     <Port />
                                 </Tab>
-
                             </Tabs>
                         </div>
                     </div>
                     <hr className='Hrm'/>
                 </div>
             </section>
-            
         </>
     )
 }
-
 export default MyResum
