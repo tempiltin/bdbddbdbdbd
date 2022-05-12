@@ -39,7 +39,7 @@ const Contact = () => {
                             </div>
                             <div className="description">
                                 <p>
-                                Men mustaqil ish uchun tayyorman. orqali men bilan bog'laning va hisobimga qo'ng'iroq qiling.
+                                Menga qo'ng'iroq qiling.
                                 </p>
                                 <span className="phone">Phone: <a href="tel:337074105">+998 (33) 707 41 05</a></span>
                                 <span className="mail">Email: <a href="mailto:temurbekshukurov0707@gmail.com">temurbekshukurov0707@gmail.com</a></span>
@@ -87,7 +87,7 @@ const Contact = () => {
                                   <div className="col-lg-6">
                                         <div className="form-group">
                                             <label htmlFor="contact-phone">TELEFON RAQAMINGIZ</label>
-                                            <input  name="contact-phone" id="contact-phone" type="text" />
+                                            <input  name="contact-phone" id="contact-phone" type="text" value="+998"/>
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
