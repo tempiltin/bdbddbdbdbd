@@ -1,15 +1,15 @@
 if (noCopy) {
-    document.body.oncopy = function() {
+    document.body.oncopy = function () {
         return false
     };
-    document.body.oncontextmenu = function() {
+    document.body.oncontextmenu = function () {
         return false
     };
-    document.body.onselectstart = document.body.ondrag = function() {
+    document.body.onselectstart = document.body.ondrag = function () {
         return false;
     };
-    document.onkeydown = function() {
-        if (event.ctrlKey == true && event.keyCode == 83) {
+    document.onkeydown = function () {
+        if (event.ctrlKey === true && event.keyCode === 83) {
             event.preventDefault();
         }
     }
@@ -44,17 +44,17 @@ function toBlur() {
 function toClear() {
     document.body.style.cssText = "-webkit-filter: blur(0px);-moz-filter: blur(0px);-ms-filter: blur(0px);-o-filter: blur(0px);filter: blur(0px);"
 };
-document.onclick = function(event) {
+document.onclick = function (event) {
     toClear();
 };
-document.onmouseleave = function(event) {
+document.onmouseleave = function (event) {
     toBlur();
 };
-document.onblur = function(event) {
+document.onblur = function (event) {
     toBlur();
 };
 document.addEventListener('keyup', (e) => {
-    if (e.key == 'PrintScreen') {
+    if (e.key === 'PrintScreen') {
         if (noScreenshot) {
             navigator.clipboard.writeText('');
             toBlur()
@@ -62,7 +62,7 @@ document.addEventListener('keyup', (e) => {
     }
 });
 document.addEventListener('keydown', (e) => {
-    if (e.ctrlKey && e.key == 'p') {
+    if (e.ctrlKey && e.key === 'p') {
         if (noPrint) {
             e.cancelBubble = true;
             e.preventDefault();
@@ -71,26 +71,26 @@ document.addEventListener('keydown', (e) => {
     }
 });
 document.addEventListener('contextmenu', event => event.preventDefault());
-document.onkeydown = function(e) {
-    if (e.keyCode == 123) {
+document.onkeydown = function (e) {
+    if (e.keyCode === 123) {
         return false
     }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
         return false
     }
-    if (e.ctrlKey && e.keyCode == 17) {
+    if (e.ctrlKey && e.keyCode === 17) {
         return false
     }
-    if (e.keyCode == 83) {
+    if (e.keyCode === 83) {
         return false
     }
-    if (e.keyCode == 44) {
+    if (e.keyCode === 44) {
         return false
     }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
         return false
     }
-    if (e.ctrlKey && e.keyCode == 85) {
+    if (e.ctrlKey && e.keyCode === 85) {
         return false
     }
 }

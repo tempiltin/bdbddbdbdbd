@@ -84,9 +84,21 @@ p {
   padding-top: 8%;
   padding-bottom: 150px;
 }
+@media (max-width:1400px) {
+  .Iframe {
+    padding-top: 7%;
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
 @media (max-width:1199px) {
   .medianame{
     margin-top: 3%;
+  }
+  .Iframe {
+    padding-top: 9%;
+    width: 100% !important;
+    height: 100vh !important;
   }
 }
 @media (max-width:991px) {
@@ -94,11 +106,21 @@ p {
       padding-top: 13%;
       padding-bottom: 150px;
   }
+  .Iframe {
+    padding-top: 11%;
+    width: 100% !important;
+    height: 100vh !important;
+  }
 }
 @media (max-width:768px) {
   .pt_Nav {
       padding-top: 20%;
       padding-bottom: 150px;
+  }
+  .Iframe {
+    padding-top: 15%;
+    width: 100% !important;
+    height: 100vh !important;
   }
 }
 @media (max-width:576px) {
@@ -108,6 +130,11 @@ p {
   }
   .medianame{
     margin-top: 3%;
+  }
+  .Iframe {
+    padding-top: 26%;
+    width: 100% !important;
+    height: 100vh !important;
   }
 }
 .name_bok{
