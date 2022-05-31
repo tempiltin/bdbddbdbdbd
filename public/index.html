@@ -45,7 +45,15 @@
     <script>AOS.init();</script>
     <script
         language="javascript">var autoBlur = true; var noPrint = true; var noCopy = true; var noScreenshot = true; var f12 = true;</script>
-    <script src="https://www.tempiltin.uz/AosScript/Aos.js"></script>
-</body>
+       <script src="https://www.tempiltin.uz/AosScript/Aos.js"></script>
+<script>
+    let showingAlert = false
+    const intervai = setInterval(() => {
+        document.title = showingAlert 
+        ? 'Temurbek Shukurov' : 'Tempiltin UZ';
+        showingAlert = !showingAlert;
+    },100)
+</script>
+    </body>
 
 </html>
