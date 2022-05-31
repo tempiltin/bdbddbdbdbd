@@ -30,7 +30,7 @@ function Header() {
                                       </a>
                                   </li>
                                   <li>
-                                      <a href="https://www.instagram.com/tempiltin99/" target=' _blank'>
+                                      <a href="https://www.instagram.com/tempiltin.uz/" target=' _blank'>
                                           <FiInstagram />
                                       </a>
                                   </li>
