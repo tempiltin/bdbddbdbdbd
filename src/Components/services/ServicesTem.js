@@ -7,22 +7,23 @@ import { BsEyeFill } from 'react-icons/bs';
 import { Link } from "react-router-dom"
 const data = [
     {
-        id: 1,
-        seen: 315,
-        name: 'Click-clone',
-        image: IMG1,
-        demo: '/demo-1'
-    },
-    {
         id: 2,
-        seen: 400,
+        seen: 412,
         name: 'Trevland',
         image: IMG2,
         demo: '/demo-2'
     },
     {
+        id: 1,
+        seen: 346,
+        name: 'Click-clone',
+        image: IMG1,
+        demo: '/demo-1'
+    },
+   
+    {
         id: 3,
-        seen: 289,
+        seen: 302,
         name: 'AUTO-CLUB',
         image: IMG3,
         demo: '/demo-3'

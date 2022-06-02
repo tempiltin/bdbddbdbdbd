@@ -16,6 +16,7 @@ import Demo8 from './demo-page/Demo8';
 import Demo9 from './demo-page/Demo9';
 import Demo10 from './demo-page/Demo10';
 import Demo11 from './demo-page/Demo11';
+import Demo12 from './demo-page/Demo12';
 function App() {
   return (
     <>
@@ -39,6 +40,7 @@ function App() {
         <Route path='/demo-9' element={<Demo9 />} />
         <Route path='/demo-10' element={<Demo10 />} />
         <Route path='/demo-11' element={<Demo11 />} />
+        <Route path='/demo-12' element={<Demo12 />} />
       </Routes>
     </>
   );

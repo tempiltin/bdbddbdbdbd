@@ -15,7 +15,7 @@ function Header() {
                       <h5 className='header_h5' data-aos="zoom-out-up">OLAMIMGA XUSH KELIBSIZ</h5>
                       <h1 className='header_h1' data-aos="zoom-out-up"><span>Temurbek</span> Shukurov</h1>
                       <div className="typesss">
-                      <Typist sentences={['Web Developer', 'Front-end Developer', 'Back-end Developer']} className="transition" loop={false} />
+                      <Typist sentences={['Web Developer', 'Front-end Developer', 'Back-end Developer']} loop={true} className="transition" />
                       </div>
                       <p className='header_p' data-aos="flip-left">
                       Zamonaviy veb-ilovalar ko'pincha uch yoki undan ortiq darajalarni o'z ichiga oladi va ishlab chiquvchi ishlayotgan jamoaning hajmiga qarab, u ushbu darajalarning bir yoki bir nechtasiga ixtisoslashishi yoki ko'proq fanlararo rol o'ynashi mumkin. Veb-ishlab chiquvchi odatda front-end veb-ishlab chiquvchisi yoki back-end veb-ishlab chiquvchisi sifatida tasniflanadi.
