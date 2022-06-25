@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio-app",
-  "version": "0.1.0",
+  "version": "1.1.1",
   "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^4.4.0",
