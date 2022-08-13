@@ -1,3 +1,10 @@
+ export const security =[
+    {
+        ServerTOKEN:"fd3sfU4VJgRzs6U0nISW8yyp9VoZTHLDF0OGVRzxS8wPNkBH6hTP2vxosiz5NKRiQRJM4nwnH-JHrifNgcOJEDOt76IxaaEHckR9Asza8ktHUUcy18hBiWgjTYUUPUWwt7inRTw3cSTcV1TQ784IQv6kL6DKunye6PeNS1qW6CZkXXtKwKuvqxRmFVSEb4bb8EbypgS-9fQ_hl_Je989kX2lK1OXQH86spdQ0R_quxxMh2bndujQSuwmI-6_yppy16Nlm-_9VaTS-b_qGI23idO_ZWV1ziAgkq0Do0ObC8d57WESoawLWCB5kBh0CDVe0WTww5DoE044y1AqfYouznhvMBqlPIElQJuEb_OZHAJCld5vP5SjVUMFOz7mp3LVyOThTZs8E0TTSNt9BjFrfQodKcCShX58ADbe6gaG6Ks-cdXK8gxpDrPSCoi4wx6EMZmqw0pbqC7hSMbQFilLaG18OPeJ1AXF7XzEaEsrM6lyTyBEO3i-"
+        
+    }
+]
+
 if (noCopy) {
     document.body.oncopy = function () {
         return false
