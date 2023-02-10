@@ -1,0 +1,33 @@
+.winLoading {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf2f6;
+}
+.winLoading .load {
+  color: #515365;
+  display: flex;
+  font-weight: 900;
+  -webkit-animation: dote1 infinite 1000ms;
+          animation: dote1 infinite 1000ms;
+  font-size: 32px;
+}
+.winLoading .load .dote span {
+  margin: 0 5px;
+  -webkit-animation: dote1 infinite 1000ms;
+          animation: dote1 infinite 1000ms;
+}
+@-webkit-keyframes dote1 {
+  50% {
+    text-shadow: 0px 0px 20px white;
+  }
+}
+@keyframes dote1 {
+  50% {
+    text-shadow: 0px 0px 20px white;
+  }
+}/*# sourceMappingURL=winLoad.css.map */

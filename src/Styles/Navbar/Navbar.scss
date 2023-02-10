@@ -1,0 +1,20 @@
+$navbar_color: #3f4257;
+.header_navbar{
+    width: 100%;
+    height: 80px;
+    color: aliceblue;
+    background: $navbar_color;
+    .find_data{
+        width: 70px;
+        height: 70px;
+        img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid wheat;
+        }
+    }
+}
+.p_temp-2{
+    padding: 0px 20px;
+}
