@@ -65,7 +65,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="col-auto">
-          <ul className='d-flex p-0 m-0'>
+          {/* <ul className='d-flex p-0 m-0'>
             <li className='p_temp-2'>{weather.name}</li>
             <li className='p_temp-2'>
               {Math.round(weather.main.temp)}
@@ -73,7 +73,7 @@ const Navbar = () => {
             </li>
             <li className='p_temp-2'>{weather.weather[0].main} </li>
 
-          </ul> 
+          </ul>  */}
           </div>
           <div className="col-auto">
             <ul className='d-flex p-0 m-0'>
