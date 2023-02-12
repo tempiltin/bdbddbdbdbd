@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className="row justify-content-between align-items-center">
           <div className="col-auto">
             <ul className='d-flex p-0 m-0'>
-              <li className='p_temp-2'>String</li>
-              <li className='p_temp-2'>String</li>
-              <li className='p_temp-2'>String</li>
+              <li className='p_temp-2'>Weather</li>
+              <li className='p_temp-2'>Valyuta kurslari</li>
+              <li className='p_temp-2'>Nomoz vaqtlari</li>
               <li className='p_temp-2'>String</li>
               <li className='p_temp-2'>String</li>
               <li className='p_temp-2'>String</li>
