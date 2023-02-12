@@ -1,0 +1,51 @@
+.header_center_profile {
+    width: 100%;
+     a{
+        color: #9a9fbf;
+     }
+    .ui_block {
+        width: 100%;
+        background-color: white;
+
+        .top_header {
+            width: 100%;
+            height: 300px;
+            border-radius: 6px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .card_position {
+        position: relative;
+        .card_img_folder {
+            position: absolute;
+            top: -80px;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            .img {
+                width: 132px;
+                height: 132px;
+                border-radius: 50%;
+                border: 5px solid white;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+    .header_title{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 50px;
+        color: #515365;
+    }
+    .header_title_span{
+        font-size: 13px;
+        text-align: center;
+        color: #9a9fbf;
+    }
+
+}

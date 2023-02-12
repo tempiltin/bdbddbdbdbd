@@ -1,0 +1,48 @@
+.header_center_profile {
+  width: 100%;
+}
+.header_center_profile a {
+  color: #9a9fbf;
+}
+.header_center_profile .ui_block {
+  width: 100%;
+  background-color: white;
+}
+.header_center_profile .ui_block .top_header {
+  width: 100%;
+  height: 300px;
+  border-radius: 6px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_center_profile .card_position {
+  position: relative;
+}
+.header_center_profile .card_position .card_img_folder {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header_center_profile .card_position .card_img_folder .img {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_center_profile .header_title {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  color: #515365;
+}
+.header_center_profile .header_title_span {
+  font-size: 13px;
+  text-align: center;
+  color: #9a9fbf;
+}/*# sourceMappingURL=Header.css.map */
