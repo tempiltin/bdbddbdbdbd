@@ -6,7 +6,7 @@ console.log(TopHeader)
 const Header = () => {
 
     const headerStyle = {
-        background: `url(${TopHeader.bg_image})`
+        background: `url(${TopHeader.bg_image}) no-repeat center center / cover`
     }
     const proflieStyle = {
         background: `url(${TopHeader.profile_image}) no-repeat center center / cover`
@@ -16,7 +16,12 @@ const Header = () => {
             <div className="row mt-4">
                 <div className=" col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div className="ui_block">
-                        <div className="top_header" style={headerStyle}></div>
+                        <div className="top_header" style={headerStyle}>
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                        </div>
                         <div className="profile_about">
                             <div className="row p-3 justify-content-between align-items-center">
                                 <div className="col-lg-5">
@@ -38,7 +43,7 @@ const Header = () => {
                                 <div className="col-2">
                                     <div className="card_position">
                                         <div className="card_img_folder">
-                                            
+
                                             <div className='img' style={proflieStyle}></div>
                                         </div>
                                         <h1 className='header_title'>{TopHeader.name}</h1>

@@ -6,6 +6,10 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+:focus {
+  outline: none;
+}
+
 body {
   background: #edf2f6;
 }/*# sourceMappingURL=index.css.map */
