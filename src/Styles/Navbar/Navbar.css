@@ -125,13 +125,46 @@
   color: aliceblue;
   border: none;
   border-radius: 6px;
+  z-index: 500;
 }
 .aside_main svg {
   font-size: 28px;
 }
 
+.bar_true {
+  right: 0;
+}
+
+.bar_false {
+  right: -100%;
+}
+
+.aside_right_bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #3f4257;
+  z-index: 501;
+  transition: 500ms all;
+}
+.aside_right_bar .aside_main {
+  width: 40px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: aliceblue;
+  color: #3f4257;
+  border: none;
+  border-radius: 6px;
+}
+.aside_right_bar .aside_main svg {
+  font-size: 28px;
+}
+
 @media (max-width: 1200px) {
-  .header_navbar li a, .header_navbar li {
+  .header_navbar li a,
+  .header_navbar li {
     font-size: 14px;
   }
   .header_navbar li {
@@ -141,5 +174,13 @@
 @media (max-width: 991px) {
   .header_navbar {
     height: 50px;
+  }
+  .aside_right_bar {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .aside_right_bar {
+    width: 100%;
   }
 }/*# sourceMappingURL=Navbar.css.map */
