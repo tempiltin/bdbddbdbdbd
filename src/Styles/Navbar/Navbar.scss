@@ -115,3 +115,36 @@ $navbar_color: #3f4257;
 		transform: translateY(-100%);
 	}
 }
+
+
+.aside_main{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    padding: 5px;
+    background: #3f4257;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    svg{
+        font-size: 28px;
+    }
+}
+@media (max-width:1200px) {
+    .header_navbar li a , .header_navbar li{
+        font-size: 14px;
+    }
+    .header_navbar li{
+        padding-left: 0;
+    }
+    
+    
+}
+@media (max-width:991px) {
+    .header_navbar{
+
+        height: 50px;
+    }
+
+    
+}

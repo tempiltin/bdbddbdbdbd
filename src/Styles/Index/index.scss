@@ -11,3 +11,14 @@
 body{
     background: #edf2f6;
 }
+
+.not_found_404{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 70%;
+    }
+}

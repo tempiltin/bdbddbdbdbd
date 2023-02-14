@@ -6,7 +6,7 @@ const WindowLoad = () => {
         window.addEventListener("load", () => {
             setTimeout(() => {
                 setState(false)
-            },1000)
+            },[])
         })
     }, [])
     console.log(state)

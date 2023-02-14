@@ -24,8 +24,8 @@ const Header = () => {
                         </div>
                         <div className="profile_about">
                             <div className="row p-3 justify-content-between align-items-center">
-                                <div className="col-lg-5">
-                                    <ul className="d-flex p-0 m-0 align-items-center">
+                                <div className="col-lg-5 ">
+                                    <ul className="d-flex  p-0 m-0 align-items-center">
                                         <li className='p_temp-2'>
                                             <Link to="/">Timeline</Link>
                                         </li>
@@ -40,7 +40,7 @@ const Header = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-2">
+                                <div className="col-2  ">
                                     <div className="card_position">
                                         <div className="card_img_folder">
 
@@ -50,7 +50,7 @@ const Header = () => {
                                         <h6 className='header_title_span'>{TopHeader.city}</h6>
                                     </div>
                                 </div>
-                                <div className="col-5">
+                                <div className="col-lg-5 ">
                                     <ul className="d-flex p-0 m-0 align-items-center">
                                         <li className='p_temp-2'>
                                             <Link to="/">Timeline</Link>
