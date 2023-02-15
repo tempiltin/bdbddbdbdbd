@@ -5,14 +5,17 @@ import IndexPage from "./Pages/Index"
 import Navbar from './Components/Navbar/Navbar';
 import NotFound404 from './Pages/NotFound404';
 const App = () => {
-
   return <React.Fragment>
     <Navbar />
     <Routes>
       <Route path='/' element={<IndexPage />} />
       <Route path='*' element={<NotFound404 />} />
     </Routes>
-    {/* <MobileNavbar /> */}
+    
+
+
+
+    
     <marquee behavior="" direction="">
       web sayt qayta ishlab chiqish jarayonida (0.1.0) versiya
     </marquee>

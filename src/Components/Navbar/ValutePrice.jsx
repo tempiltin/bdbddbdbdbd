@@ -12,20 +12,33 @@ const ValutePrice = () => {
         Promise.all([
             ValutaFonction()
         ])
+
         //===============================================================================
+
+
 
     }, [])
     return (
         <ul className='d-flex p-0 m-0'>
               <li className='p_temp-2'>{data.title}</li>
               <li className='p_temp-2'>$ 1 &nbsp;=&nbsp;
-                {data.cb_price} so'm &nbsp;
-                {data.cb_price >= 11000 ? <BsArrowUpRight /> : <BsArrowDownRight />}
+                {data.nbu_buy_price} so'm &nbsp;
+                {data.nbu_buy_price >= 11000 ? <BsArrowUpRight /> : <BsArrowDownRight />}
 
               </li>
 
             </ul>
     )
+
 }
 
 export default ValutePrice
+
+
+
+
+
+
+
+
+
