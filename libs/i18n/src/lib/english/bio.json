@@ -1,0 +1,95 @@
+{
+  "bio": {
+    "media": "/assets/3d-headshot-lg.png",
+    "details": {
+      "heading": "Men haqimda",
+      "name": "Temurbek Shukurov",
+      "description": "Eng yaxshi ko'rgan tilim bu Javascript. Men bitta til bilan ko'pgina sohalarga kirish mumkinligiga amin bo'lganman. Hozirgi kunda Javascript bilan webdan tortib mobile, desktop , server ilovalarigacha yana shu bilan birgalikda IOT qurilmalar va Mikrokontroller largacha shu tilda kod yozish mumkinligini bilaman. Men hozirgi kunda o'rganishdan tuxtamayapman. Men bilmagan bilimlar hali bisyor. Hechqachon o'rganishdan to'xtamang !"
+    }
+  },
+  "experience": {
+    "heading": "Tajriba",
+    "experience": [
+      {
+        "date": "2021 - yil",
+        "title": "Lead Full Stack Developer",
+        "company": "freelancer"
+      },
+      {
+        "date": "2022 - yil",
+        "title": "Front-end dasturchi va mentor",
+        "company": "Programmer.uz"
+      },
+      {
+        "date": "2023 - hozirgacha ",
+        "title": "Fullstack dasturchi",
+        "company": "freelancer"
+      }
+    ]
+  },
+  "education": {
+    "heading": "TA'LIM",
+    "education": [
+      {
+        "date": "Change IT academy",
+        "degree": "Fullstack Web Dasturchi",
+        "university": "IT academy"
+      },
+      {
+        "date": "Tashkent University of Information Technologies",
+        "degree": "Computer engineer",
+        "university": "University"
+      },
+      {
+        "date": "Programmer UZ",
+        "degree": "React | Native | Linux | Vue ",
+        "university": "IT Company"
+      }
+    ]
+  },
+  "profiles": {
+    "heading": "Bog'lanish",
+    "caption": "Contact",
+    "media": null,
+    "button": {
+      "link": "/contact",
+      "icon": {
+        "light": "/assets/icons/icon-2.svg",
+        "dark": "/assets/icons/icon.svg"
+      }
+    },
+    "profiles": [
+      {
+        "link": "https://github.com/tempiltin",
+        "icon": "iconoir-github"
+      },
+      {
+        "link": "https://linkedin.com/in/temurbek-shukurov",
+        "icon": "iconoir-linkedin"
+      }
+    ]
+  },
+  "contact": {
+    "heading": " <span>Hamkorlik</span> <br/> qilish",
+    "media": "/assets/icons/icon2.png",
+    "button": {
+      "link": "/contact",
+      "icon": {
+        "light": "/assets/icons/icon-2.svg",
+        "dark": "/assets/icons/icon.svg"
+      }
+    }
+  },
+  "credentials": {
+    "heading": "Experience",
+    "caption": "Batafsil ...",
+    "media": "/assets/logo/logo.png",
+    "button": {
+      "link": "/credentials",
+      "icon": {
+        "light": "/assets/icons/icon-2.svg",
+        "dark": "/assets/icons/icon.svg"
+      }
+    }
+  }
+}
