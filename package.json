@@ -8,6 +8,9 @@
     "build": "nx run-many --target=build",
     "test": "nx run-many --target=test"
   },
+    "engines": {
+    "node": "20.x"
+  },
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.5.1",
