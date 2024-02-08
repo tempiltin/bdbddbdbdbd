@@ -70,7 +70,7 @@ import Typography from "layouts/sections/elements/typography";
 
 const routes = [
   {
-    name: "pages",
+    name: "Sahifalar",
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
