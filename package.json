@@ -4,7 +4,7 @@
   "private": true,
 
   "engines": {
-    "node": ">=20.x"
+    "node": ">=18.x"
   },
   "dependencies": {
     "@emotion/cache": "11.10.7",
