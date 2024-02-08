@@ -38,7 +38,7 @@ function Presentation() {
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
+          type: "download",
           route: "https://www.tempiltin.uz/resume.zip",
           label: "resumeni yuklash",
           color: "info",

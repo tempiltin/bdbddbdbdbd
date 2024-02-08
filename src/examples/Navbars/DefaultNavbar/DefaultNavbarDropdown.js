@@ -65,7 +65,7 @@ function DefaultNavbarDropdown({
           color={light ? "white" : "dark"}
           sx={{ fontWeight: "100%", ml: 1, mr: 0.25 }}
         >
-          {name}
+          {name} 
         </MKTypography>
         <MKTypography variant="body2" color={light ? "white" : "dark"} ml="auto">
           <Icon sx={{ fontWeight: "normal", verticalAlign: "middle" }}>
