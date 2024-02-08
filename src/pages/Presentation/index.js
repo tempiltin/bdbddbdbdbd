@@ -96,6 +96,7 @@ function Presentation() {
         }}
       >
         <Counters />
+        
         <Information />
         <DesignBlocks />
         <Pages />
