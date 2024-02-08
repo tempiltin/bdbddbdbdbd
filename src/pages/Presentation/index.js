@@ -69,7 +69,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Temurbek Shukurov{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -78,8 +78,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Salom ! Men 2021 - yildan buyon dasturlash bilan shug'ullanib kelaman.
+              Shu vaqt davomida bir qancha yo'nalishlarni o'rgandim va o'rganishda davom etyapman!
             </MKTypography>
           </Grid>
         </Container>
