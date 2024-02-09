@@ -14,7 +14,7 @@ import Presentation from "layouts/pages/presentation";
 
 // Material Kit 2 React routes
 import routes from "routes";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function App() {
   const { pathname } = useLocation();
 
@@ -37,7 +37,9 @@ export default function App() {
       return null;
     });
 
-  return (
+  return (<> 
+  <SpeedInsights/>
+ 
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Routes>
@@ -46,5 +48,6 @@ export default function App() {
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </ThemeProvider>
+    </>
   );
 }
