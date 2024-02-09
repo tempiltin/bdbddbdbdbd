@@ -69,7 +69,7 @@ function Presentation() {
                 },
               })}
             >
-              Temurbek Shukurov{" "}
+              Temurbek Shukurov's{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
