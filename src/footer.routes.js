@@ -14,37 +14,37 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Tempiltin UZ",
-    image: logoCT,
-    route: "/",
+    // name: "Tempiltin UZ",
+    // image: logoCT,
+    // route: "/",
   },
   socials: [
-    {
-      icon: <FacebookIcon />,
-      link: "https://www.facebook.com/TemurbekShukurov0707/",
-    },
-    {
-      icon: <TwitterIcon />,
-      link: "https://twitter.com/tempiltin",
-    },
-    {
-      icon: <GitHubIcon />,
-      link: "https://github.com/tempiltin",
-    },
-    {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/tempiltin",
-    },
+    // {
+    //   icon: <FacebookIcon />,
+    //   link: "https://www.facebook.com/TemurbekShukurov0707/",
+    // },
+    // {
+    //   icon: <TwitterIcon />,
+    //   link: "https://twitter.com/tempiltin",
+    // },
+    // {
+    //   icon: <GitHubIcon />,
+    //   link: "https://github.com/tempiltin",
+    // },
+    // {
+    //   icon: <YouTubeIcon />,
+    //   link: "https://www.youtube.com/channel/tempiltin",
+    // },
   ],
   menus: [
-    {
-      name: "Sahifalar",
-      items: [
-        { name: "Haqida", href: "https://www.twmpiltin.uz/pages/route/haqida" },
-        { name: "Kontakt", href: "https://www.twmpiltin.uz/pages/route/kontakt" },
-        { name: "Muallif", href: "https://www.twmpiltin.uz/pages/route/muallif" },
-      ],
-    },
+    // {
+    //   name: "Sahifalar",
+    //   items: [
+    //     { name: "Haqida", href: "https://www.twmpiltin.uz/pages/route/haqida" },
+    //     { name: "Kontakt", href: "https://www.twmpiltin.uz/pages/route/kontakt" },
+    //     { name: "Muallif", href: "https://www.twmpiltin.uz/pages/route/muallif" },
+    //   ],
+    // },
     // {
     //   name: "resources",
     //   items: [
@@ -53,15 +53,15 @@ export default {
     //     { name: "affiliate program", href: "#!" },
     //   ],
     // },
-    {
-      name: " ",
-      items: [
-        { name: "", href: "" },
-        { name: "", href: "" },
-        { name: "", href: "" },
-        { name: "", href: "" },
-      ],
-    },
+    // {
+    //   name: " ",
+    //   items: [
+    //     { name: "", href: "" },
+    //     { name: "", href: "" },
+    //     { name: "", href: "" },
+    //     { name: "", href: "" },
+    //   ],
+    // },
  
   ],
   copyright: (

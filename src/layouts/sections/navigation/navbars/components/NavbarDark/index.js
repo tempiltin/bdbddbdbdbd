@@ -13,12 +13,7 @@ function NavbarDark() {
     <MKBox variant="gradient" bgColor="dark" shadow="sm" py={0.25}>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.tempiltin.uz/resume.zip",
-          label: "resumeni yuklash",
-          color: "info",
-        }}
+       
         transparent
         relative
         light

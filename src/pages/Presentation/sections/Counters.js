@@ -42,7 +42,7 @@ function Counters() {
             <DefaultCounterCard
               count={10}
               suffix="+"
-              title="Design Blocks"
+              title="xizmatlar"
               description="Dasturiy maxsulotlar, NPM paketlar, mobil va desktop ilovalar"
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />

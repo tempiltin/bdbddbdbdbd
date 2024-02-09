@@ -28,9 +28,9 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Bu yerga
                     <br />
-                    Material Kit
+                    Bozing
                   </>
                 }
                 description="All the MUI components that you need in a development have been re-design with the new look."
@@ -47,7 +47,7 @@ function Information() {
               />
             </RotatingCard>
           </Grid>
-          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
+          {/* <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
@@ -81,7 +81,7 @@ function Information() {
                 />
               </Grid>
             </Grid>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </MKBox>

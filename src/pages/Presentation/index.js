@@ -37,12 +37,7 @@ function Presentation() {
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "download",
-          route: "https://www.tempiltin.uz/resume.zip",
-          label: "resumeni yuklash",
-          color: "info",
-        }}
+      
         sticky
       />
       <MKBox
@@ -95,7 +90,7 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Counters />
+        <Counters /> {/* ============================================ */}
         
         <Information />
         <DesignBlocks />
