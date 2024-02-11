@@ -1,17 +1,3 @@
-/**
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 import { useState } from "react";
 
@@ -47,19 +33,17 @@ import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
 function SignInBasic() {
   const [rememberMe, setRememberMe] = useState(false);
-
+  const [signName,setSignName] = useState("Sign up")
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
+  const signUp = (e)=>{
+    setSignName("Ruxsat yo'q")
 
+  }
   return (
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
+        
         transparent
         light
       />
@@ -97,7 +81,7 @@ function SignInBasic() {
                 textAlign="center"
               >
                 <MKTypography variant="h4" fontWeight="medium" color="white" mt={1}>
-                  Sign in
+                Kirish
                 </MKTypography>
                 <Grid container spacing={3} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
                   <Grid item xs={2}>
@@ -120,10 +104,10 @@ function SignInBasic() {
               <MKBox pt={4} pb={3} px={3}>
                 <MKBox component="form" role="form">
                   <MKBox mb={2}>
-                    <MKInput type="email" label="Email" fullWidth />
+                    <MKInput type="email" label="Elektron pochta" fullWidth />
                   </MKBox>
                   <MKBox mb={2}>
-                    <MKInput type="password" label="Password" fullWidth />
+                    <MKInput type="password" label="Parol kiriting" fullWidth />
                   </MKBox>
                   <MKBox display="flex" alignItems="center" ml={-1}>
                     <Switch checked={rememberMe} onChange={handleSetRememberMe} />
@@ -134,7 +118,7 @@ function SignInBasic() {
                       onClick={handleSetRememberMe}
                       sx={{ cursor: "pointer", userSelect: "none", ml: -1 }}
                     >
-                      &nbsp;&nbsp;Remember me
+                      &nbsp;&nbsp;Eslatish
                     </MKTypography>
                   </MKBox>
                   <MKBox mt={4} mb={1}>
@@ -144,16 +128,17 @@ function SignInBasic() {
                   </MKBox>
                   <MKBox mt={3} mb={1} textAlign="center">
                     <MKTypography variant="button" color="text">
-                      Don&apos;t have an account?{" "}
+                      Hisibingiz yo'qmi ?{" "}
                       <MKTypography
                         component={Link}
-                        to="/authentication/sign-up/cover"
+                        to="/pages/authentication/sign-in"
                         variant="button"
                         color="info"
                         fontWeight="medium"
                         textGradient
+                        onClick={()=> signUp()}
                       >
-                        Sign up
+                        {signName}
                       </MKTypography>
                     </MKTypography>
                   </MKBox>

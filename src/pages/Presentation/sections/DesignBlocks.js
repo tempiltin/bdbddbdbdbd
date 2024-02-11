@@ -1,17 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // react-router-dom components
 import { Link } from "react-router-dom";
@@ -73,16 +59,15 @@ function DesignBlocks() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="Infinite combinations"
+            badgeContent="Boshdan kechirilgan"
             container
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+            Portfolio
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We have created multiple options for you to put together and customise into pixel
-            perfect pages.
+            Kattayu kichik bu loyihalarni o'zim qiziqqan holda yozib chiqqanman
           </MKTypography>
         </Grid>
       </Container>

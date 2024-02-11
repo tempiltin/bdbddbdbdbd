@@ -42,21 +42,21 @@ const routes = [
       {
         name: "Men haqimda",
         collapse: [
-          {
-            name: "Haqida",
-            route: "/pages/route/haqida",
-            component: <AboutUs />,
-          },
-          {
-            name: "Kontakt",
-            route: "/pages/route/kontakt",
-            component: <ContactUs />,
-          },
-          {
-            name: "Muallif",
-            route: "/pages/route/muallif",
-            component: <Author />,
-          },
+          // {
+          //   name: "Haqida",
+          //   route: "/pages/route/haqida",
+          //   component: <AboutUs />,
+          // },
+          // {
+          //   name: "Kontakt",
+          //   route: "/pages/route/kontakt",
+          //   component: <ContactUs />,
+          // },
+          // {
+          //   name: "Muallif",
+          //   route: "/pages/route/muallif",
+          //   component: <Author />,
+          // },
         ],
       },
       {

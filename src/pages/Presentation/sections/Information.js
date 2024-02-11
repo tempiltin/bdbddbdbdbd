@@ -33,16 +33,16 @@ function Information() {
                     Bozing
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Tempiltin UZ"
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Mobil ilova"
+                description="Bizni kuzatib borish uchun ilovamizdan foydalanishingiz mumkin! Kafolat beraman ilova mutlaqo zararsiz"
                 action={{
                   type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  route: "https://t.me/TemurbekShukurov/308",
+                  label: "Yuklab olish",
                 }}
               />
             </RotatingCard>

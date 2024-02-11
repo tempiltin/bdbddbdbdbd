@@ -1,17 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -46,19 +32,16 @@ function BuiltByDevelopers() {
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
-            Built by developers
+            Xizmatlar
           </MKTypography>
           <MKTypography variant="h1" color="white" mb={1}>
-            Complex Documentation
+            Loyihangizni birgalikda quramiz !
           </MKTypography>
-          <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            From colors, cards, typography to complex elements, you will find the full
-            documentation. Play with the utility classes and you will create unlimited combinations
-            for our components.
-          </MKTypography>
+        
+          
           <MKTypography
             component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
+            href="https://www.tempiltin.uz/kontakt"
             target="_blank"
             rel="noreferrer"
             variant="body2"
@@ -79,7 +62,7 @@ function BuiltByDevelopers() {
               },
             }}
           >
-            Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            Aloqa <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
         </Grid>
       </Container>

@@ -4,8 +4,8 @@ const imagesPrefix =
 
 export default [
   {
-    title: "Design Blocks",
-    description: "A selection of 45 page sections that fit perfectly in any combination",
+    title: "Front-end UI/UX",
+    description: "React.js, Next.js, Figma ...",
     items: [
       {
         image: `${imagesPrefix}/headers.jpg`,
@@ -94,8 +94,8 @@ export default [
     ],
   },
   {
-    title: "Navigation",
-    description: "30+ components that will help go through the pages",
+    title: "Back-end",
+    description: "Node.js ,Express.js, MongoDB, Python",
     items: [
       {
         image: `${imagesPrefix}/navbars.jpg`,
@@ -118,8 +118,8 @@ export default [
     ],
   },
   {
-    title: "Input Areas",
-    description: "50+ elements that you need for text manipulation and insertion",
+    title: "Mobile / Web App",
+    description: "React, React Native",
     items: [
       {
         image: `${imagesPrefix}/newsletters.jpg`,
@@ -148,8 +148,8 @@ export default [
     ],
   },
   {
-    title: "Attention Catchers",
-    description: "20+ Fully coded components that popup from different places of the screen",
+    title: "Desktop App",
+    description: "Electron.js",
     items: [
       {
         image: `${imagesPrefix}/alerts.jpg`,
@@ -178,8 +178,8 @@ export default [
     ],
   },
   {
-    title: "Elements",
-    description: "80+ carefully crafted small elements that come with multiple colors and shapes",
+    title: "Boshqalar",
+    description: "Qiziqishlar",
     items: [
       {
         image: `${imagesPrefix}/buttons.jpg`,
